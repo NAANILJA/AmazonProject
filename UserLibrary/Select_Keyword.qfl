@@ -1,0 +1,142 @@
+﻿Function executeTest(TC_ID)
+	Select Case TC_ID
+'	Case "TC_001"
+'	     services.StartTransaction"TC_001"
+'	     Environment.Value("Result")= SignIn()
+'	     services.EndTransaction"TC_001"
+'	
+	Case"TC_002"
+	       Services.StartTransaction"TC_002"
+	       Environment.Value("Result")=Fashion()
+	       services.EndTransaction"TC_002"
+	      
+	 Case"TC_003"
+	       Services.StartTransaction"TC_003"
+	       Environment.Value("Result")=Women()
+	       services.EndTransaction"TC_003"
+	   
+	 Case"TC_004"
+	       Services.StartTransaction"TC_004"
+	       Environment.Value("Result")=Western_Wear() 
+	       Services.EndTransaction"TC_004"
+	       
+'	  Case"TC_005"
+'	       Services.StartTransaction"TC_005"
+'	       Environment.Value("Result")=Men()
+'	       Services.EndTransaction"TC_005"
+'	       
+'	   Case"TC_006"
+'	       Services.StartTransaction"TC_006"
+'	       Environment.Value("Result")=Bag_Lugg() 
+'	       Services.EndTransaction"TC_006"
+	       
+	    Case"TC_007"
+	       Services.StartTransaction"TC_007"
+	       Environment.Value("Result")=Sportswear() 
+	       Services.EndTransaction"TC_007"
+	       
+	    Case"TC_008"
+	       Services.StartTransaction"TC_008"
+	       Environment.Value("Result")=BrandChecBox() 
+	       Services.EndTransaction"TC_008"
+	       
+	    Case"TC_009"
+	       Services.StartTransaction"TC_009"
+	       Environment.Value("Result")=TodayDeals() 
+	       Services.EndTransaction"TC_003"
+	       
+	    Case"TC_010"
+	       Services.StartTransaction"TC_010"
+	       Environment.Value("Result")=PoNdelivery() 
+	       Services.EndTransaction"TC_010"
+	       
+	    Case"TC_011"
+	       Services.StartTransaction"TC_011"
+	       Environment.Value("Result")=PearlEarr() 
+	       Services.EndTransaction"TC_011"
+	       
+	    Case"TC_012"
+	       Services.StartTransaction"TC_012"
+	       Environment.Value("Result")=Footwear() 
+	       Services.EndTransaction"TC_012"
+	       
+	    Case"TC_013"
+	       Services.StartTransaction"TC_013"
+	       Environment.Value("Result")=BeautyPro() 
+	       Services.EndTransaction"TC_013"
+	       
+	    Case"TC_014"
+	       Services.StartTransaction"TC_014"
+	       Environment.Value("Result")=Discount()
+	       Services.EndTransaction"TC_014"
+	       
+	    Case"TC_015"
+	       Services.StartTransaction"TC_015"
+	       Environment.Value("Result")=Review() 
+	       Services.EndTransaction"TC_015"
+	       
+	     Case"TC_016"
+	       Services.StartTransaction"TC_016"
+	       Environment.Value("Result")=NewArrival() 
+	       Services.EndTransaction"TC_016"
+	       
+	     Case"TC_017"
+	       Services.StartTransaction"TC_017"
+	       Environment.Value("Result")=Size() 
+	       Services.EndTransaction"TC_017"
+	       
+	    Case"TC_018"
+	       Services.StartTransaction"TC_018"
+	       Environment.Value("Result")=Pattern() 
+	       Services.EndTransaction"TC_018"
+	       
+	   Case"TC_019"
+	       Services.StartTransaction"TC_019"
+	       Environment.Value("Result")=Price() 
+	       Services.EndTransaction"TC_019"
+	       
+	    Case"TC_020"
+	       Services.StartTransaction"TC_020"
+	       Environment.Value("Result")=Top_Brands() 
+	       Services.EndTransaction"TC_020"
+	       
+	    Case"TC_021"
+	       Services.StartTransaction"TC_021"
+	       Environment.Value("Result")= Material() 
+	       Services.EndTransaction"TC_021"
+	       
+	     Case"TC_022"
+	       Services.StartTransaction"TC_022"
+	       Environment.Value("Result")=Availability() 
+	       Services.EndTransaction"TC_022"
+	       
+          Case"TC_023"
+	       Services.StartTransaction"TC_023"
+	       Environment.Value("Result")=Delivery_Day()
+	       Services.EndTransaction"TC_023"
+	       
+            Case"TC_024"
+	       Services.StartTransaction"TC_024"
+	       Environment.Value("Result")=Seller()
+	       Services.EndTransaction"TC_024"
+	       
+	       Case"TC_025"
+	       Services.StartTransaction"TC_025"
+	       Environment.Value("Result")=PriceRange()
+	       Services.EndTransaction"TC_025"
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	       
+	End Select
+End Function

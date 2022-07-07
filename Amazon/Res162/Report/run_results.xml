@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-05 23:07:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>f525714507ab499cbbef08494fb71f3f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Fashion_4.Click</Name>
+    <Description />
+    <StartTime>2022-07-05 23:07:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Fashion_4]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="nav-xshop"]/A[2]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4185e20b7947421d9292c4ac21105a91</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-05 23:07:31</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>80d93e8e03c84ae5a116f0a9e4b64ddf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Men_3.Click</Name>
+    <Description />
+    <StartTime>2022-07-05 23:07:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Men_3]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="nav-subnav"]/A[3]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Men]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Men]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="nav-a-content"&gt;      Men          &lt;/span&gt;    &lt;span class="nav-arrow"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4185e20b7947421d9292c4ac21105a91</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon Fashion: Clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-05 23:07:35</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>80d93e8e03c84ae5a116f0a9e4b64ddf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Watches.Click</Name>
+    <Description />
+    <StartTime>2022-07-05 23:07:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Watches]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN[normalize-space()="Watches"]/A[1]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Watches]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Watches]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span dir="auto"&gt;Watches&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4185e20b7947421d9292c4ac21105a91</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Women's fashion: Buy clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-05 23:07:38</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>80d93e8e03c84ae5a116f0a9e4b64ddf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>70% Off or more.Click</Name>
+    <Description />
+    <StartTime>2022-07-05 23:07:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[70% Off or more]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/A[normalize-space()="70% Off or more"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[70% Off or more]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[70% Off or more]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="a-size-base a-color-base" dir="auto"&gt;70% Off or more&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4185e20b7947421d9292c4ac21105a91</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Best sellerin GPS Units"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2022-07-05 23:08:16</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <BasicMatch>1936</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1809</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[sg-col-inner]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>65</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Best sellerin GPS Units]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="search"]/DIV[1]/DIV[1]/DIV[1]/SPAN[3]/DIV[2]/DIV[5]/DIV[1]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Best seller Sponsored Amazfit Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999 ₹15,999 ₹23,998 ₹23,998 (33% off) FREE Delivery by Amazon]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="sg-col-inner"&gt;&lt;div cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&gt;&lt;div data-component-type="s-impression-logger" data-component-props="{&amp;quot;percentageShownToFire&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;batchable&amp;quot;:true,&amp;quot;requiredElementSelector&amp;quot;:&amp;quot;.s-image:visible&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse&amp;amp;adId=20058002790498&amp;amp;eventType=1&amp;amp;adIndex=3&amp;quot;}" class="rush-component s-expand-height" data-component-id="41"&gt;    &lt;div data-component-type="s-impression-counter" data-component-props="{&amp;quot;presenceCounterName&amp;quot;:&amp;quot;sp_delivered&amp;quot;,&amp;quot;testElementSelector&amp;quot;:&amp;quot;.s-image&amp;quot;,&amp;quot;hiddenCounterName&amp;quot;:&amp;quot;sp_hidden&amp;quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&gt;    &lt;div class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&gt;&lt;div class="a-section a-spacing-base a-text-center"&gt;&lt;div class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&gt;&lt;span data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&amp;quot;badgeType&amp;quot;:&amp;quot;best-seller&amp;quot;,&amp;quot;asin&amp;quot;:&amp;quot;B0B5D864PY&amp;quot;}" data-component-id="7"&gt;&lt;div class="a-row a-badge-region"&gt;&lt;span id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&gt;&lt;span id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Best seller&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&gt;in GPS Units&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt;&lt;div class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&gt;&lt;div class="s-image-padding"&gt;&lt;span data-component-type="s-product-image" class="rush-component"&gt;&lt;a class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;div class="a-section aok-relative s-image-tall-aspect"&gt;&lt;img class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&gt;&lt;/div&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&gt;&lt;span class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&amp;quot;closeButton&amp;quot;:&amp;quot;true&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;preload&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;sp-info-popover-B0B5D864PY&amp;quot;,&amp;quot;position&amp;quot;:&amp;quot;triggerVertical&amp;quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&gt;&lt;a href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&gt;&lt;span class="s-label-popover-default"&gt;&lt;span class="a-color-secondary"&gt;Sponsored&lt;/span&gt;&lt;/span&gt;&lt;span class="s-label-popover-hover"&gt;&lt;span class="a-color-base"&gt;Sponsored&lt;/span&gt;&lt;/span&gt; &lt;span class="aok-inline-block s-sponsored-label-info-icon"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;div class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&gt;&lt;span&gt;You are seeing this ad based on the product’s relevance to your search query.&lt;/span&gt;&lt;div class="a-row"&gt;&lt;span class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&amp;quot;ajaxUrl&amp;quot;:&amp;quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;ajax&amp;quot;,&amp;quot;header&amp;quot;:&amp;quot;Share Your Feedback&amp;quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&gt;&lt;span&gt;Let us know&lt;/span&gt; &lt;/a&gt; &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-row a-size-base a-color-secondary"&gt;&lt;h5 class="s-line-clamp-1"&gt;&lt;span class="a-size-base-plus a-color-base"&gt;Amazfit&lt;/span&gt;&lt;/h5&gt;&lt;/div&gt;&lt;h2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-size-base-plus a-color-base a-text-normal"&gt;Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&lt;/span&gt; &lt;/a&gt; &lt;/h2&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&gt;&lt;div class="a-row"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&gt;&lt;span id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&gt;&lt;span id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Limited time deal&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/a&gt; &lt;/div&gt;&lt;div class="a-row a-size-base a-color-base"&gt;&lt;a class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-price" data-a-size="l" data-a-color="price"&gt;&lt;span class="a-offscreen"&gt;₹15,999&lt;/span&gt;&lt;span aria-hidden="true"&gt;&lt;span class="a-price-symbol"&gt;₹&lt;/span&gt;&lt;span class="a-price-whole"&gt;15,999&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&gt;&lt;span class="a-offscreen"&gt;₹23,998&lt;/span&gt;&lt;span aria-hidden="true"&gt;₹23,998&lt;/span&gt;&lt;/span&gt; &lt;/a&gt; &lt;span class="a-letter-space"&gt;&lt;/span&gt;&lt;span&gt;(33% off)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-micro"&gt;&lt;div class="a-row a-size-base a-color-secondary s-align-children-center"&gt;&lt;span aria-label="FREE Delivery by Amazon"&gt;&lt;span class="a-color-base"&gt;FREE Delivery by Amazon&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&gt;&lt;div data-component-type="s-impression-logger" data-component-props="{&amp;quot;percentageShownToFire&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;batchable&amp;quot;:true,&amp;quot;requiredElementSelector&amp;quot;:&amp;quot;.s-image:visible&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse&amp;amp;adId=20058002790498&amp;amp;eventType=1&amp;amp;adIndex=3&amp;quot;}" class="rush-component s-expand-height" data-component-id="41"&gt;    &lt;div data-component-type="s-impression-counter" data-component-props="{&amp;quot;presenceCounterName&amp;quot;:&amp;quot;sp_delivered&amp;quot;,&amp;quot;testElementSelector&amp;quot;:&amp;quot;.s-image&amp;quot;,&amp;quot;hiddenCounterName&amp;quot;:&amp;quot;sp_hidden&amp;quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&gt;    &lt;div class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&gt;&lt;div class="a-section a-spacing-base a-text-center"&gt;&lt;div class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&gt;&lt;span data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&amp;quot;badgeType&amp;quot;:&amp;quot;best-seller&amp;quot;,&amp;quot;asin&amp;quot;:&amp;quot;B0B5D864PY&amp;quot;}" data-component-id="7"&gt;&lt;div class="a-row a-badge-region"&gt;&lt;span id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&gt;&lt;span id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Best seller&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&gt;in GPS Units&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt;&lt;div class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&gt;&lt;div class="s-image-padding"&gt;&lt;span data-component-type="s-product-image" class="rush-component"&gt;&lt;a class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;div class="a-section aok-relative s-image-tall-aspect"&gt;&lt;img class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&gt;&lt;/div&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&gt;&lt;span class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&amp;quot;closeButton&amp;quot;:&amp;quot;true&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;preload&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;sp-info-popover-B0B5D864PY&amp;quot;,&amp;quot;position&amp;quot;:&amp;quot;triggerVertical&amp;quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&gt;&lt;a href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&gt;&lt;span class="s-label-popover-default"&gt;&lt;span class="a-color-secondary"&gt;Sponsored&lt;/span&gt;&lt;/span&gt;&lt;span class="s-label-popover-hover"&gt;&lt;span class="a-color-base"&gt;Sponsored&lt;/span&gt;&lt;/span&gt; &lt;span class="aok-inline-block s-sponsored-label-info-icon"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;div class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&gt;&lt;span&gt;You are seeing this ad based on the product’s relevance to your search query.&lt;/span&gt;&lt;div class="a-row"&gt;&lt;span class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&amp;quot;ajaxUrl&amp;quot;:&amp;quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;ajax&amp;quot;,&amp;quot;header&amp;quot;:&amp;quot;Share Your Feedback&amp;quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&gt;&lt;span&gt;Let us know&lt;/span&gt; &lt;/a&gt; &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-row a-size-base a-color-secondary"&gt;&lt;h5 class="s-line-clamp-1"&gt;&lt;span class="a-size-base-plus a-color-base"&gt;Amazfit&lt;/span&gt;&lt;/h5&gt;&lt;/div&gt;&lt;h2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-size-base-plus a-color-base a-text-normal"&gt;Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&lt;/span&gt; &lt;/a&gt; &lt;/h2&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&gt;&lt;div class="a-row"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&gt;&lt;span id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&gt;&lt;span id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Limited time deal&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/a&gt; &lt;/div&gt;&lt;div class="a-row a-size-base a-color-base"&gt;&lt;a class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-price" data-a-size="l" data-a-color="price"&gt;&lt;span class="a-offscreen"&gt;₹15,999&lt;/span&gt;&lt;span aria-hidden="true"&gt;&lt;span class="a-price-symbol"&gt;₹&lt;/span&gt;&lt;span class="a-price-whole"&gt;15,999&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&gt;&lt;span class="a-offscreen"&gt;₹23,998&lt;/span&gt;&lt;span aria-hidden="true"&gt;₹23,998&lt;/span&gt;&lt;/span&gt; &lt;/a&gt; &lt;span class="a-letter-space"&gt;&lt;/span&gt;&lt;span&gt;(33% off)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-micro"&gt;&lt;div class="a-row a-size-base a-color-secondary s-align-children-center"&gt;&lt;span aria-label="FREE Delivery by Amazon"&gt;&lt;span class="a-color-base"&gt;FREE Delivery by Amazon&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e57f173a5fed462e886e0703ecaf4207</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Best sellerin GPS Units"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;xpath=//DIV[@id="search"]/DIV[1]/DIV[1]/DIV[1]/SPAN[3]/DIV[2]/DIV[5]/DIV[1]&lt;br&gt;outertext=Best seller Sponsored Amazfit Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999 ₹15,999 ₹23,998 ₹23,998 (33% off) FREE Delivery by Amazon&lt;br&gt;outerhtml=&amp;ltdiv class="sg-col-inner"&amp;gt&amp;ltdiv cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&amp;gt&amp;ltdiv data-component-type="s-impression-logger" data-component-props="{&amp;quot;percentageShownToFire&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;batchable&amp;quot;:true,&amp;quot;requiredElementSelector&amp;quot;:&amp;quot;.s-image:visible&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse&amp;amp;adId=20058002790498&amp;amp;eventType=1&amp;amp;adIndex=3&amp;quot;}" class="rush-component s-expand-height" data-component-id="41"&amp;gt    &amp;ltdiv data-component-type="s-impression-counter" data-component-props="{&amp;quot;presenceCounterName&amp;quot;:&amp;quot;sp_delivered&amp;quot;,&amp;quot;testElementSelector&amp;quot;:&amp;quot;.s-image&amp;quot;,&amp;quot;hiddenCounterName&amp;quot;:&amp;quot;sp_hidden&amp;quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&amp;gt    &amp;ltdiv class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&amp;gt&amp;ltdiv class="a-section a-spacing-base a-text-center"&amp;gt&amp;ltdiv class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&amp;gt&amp;ltspan data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&amp;quot;badgeType&amp;quot;:&amp;quot;best-seller&amp;quot;,&amp;quot;asin&amp;quot;:&amp;quot;B0B5D864PY&amp;quot;}" data-component-id="7"&amp;gt&amp;ltdiv class="a-row a-badge-region"&amp;gt&amp;ltspan id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&amp;gt&amp;ltspan id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&amp;gt&amp;ltspan class="a-badge-label-inner a-text-ellipsis"&amp;gt&amp;ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&amp;gtBest seller&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;ltspan id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&amp;gtin GPS Units&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;lt/div&amp;gt&amp;ltdiv class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&amp;gt&amp;ltdiv class="s-image-padding"&amp;gt&amp;ltspan data-component-type="s-product-image" class="rush-component"&amp;gt&amp;lta class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&amp;gt&amp;ltdiv class="a-section aok-relative s-image-tall-aspect"&amp;gt&amp;ltimg class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&amp;gt&amp;lt/div&amp;gt&amp;lt/a&amp;gt&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&amp;gt&amp;ltdiv class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&amp;gt&amp;ltspan class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&amp;quot;closeButton&amp;quot;:&amp;quot;true&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;preload&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;sp-info-popover-B0B5D864PY&amp;quot;,&amp;quot;position&amp;quot;:&amp;quot;triggerVertical&amp;quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&amp;gt&amp;lta href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&amp;gt&amp;ltspan class="s-label-popover-default"&amp;gt&amp;ltspan class="a-color-secondary"&amp;gtSponsored&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;ltspan class="s-label-popover-hover"&amp;gt&amp;ltspan class="a-color-base"&amp;gtSponsored&amp;lt/span&amp;gt&amp;lt/span&amp;gt &amp;ltspan class="aok-inline-block s-sponsored-label-info-icon"&amp;gt&amp;lt/span&amp;gt&amp;lt/a&amp;gt&amp;lt/span&amp;gt&amp;ltdiv class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&amp;gt&amp;ltspan&amp;gtYou are seeing this ad based on the product’s relevance to your search query.&amp;lt/span&amp;gt&amp;ltdiv class="a-row"&amp;gt&amp;ltspan class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&amp;quot;ajaxUrl&amp;quot;:&amp;quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;ajax&amp;quot;,&amp;quot;header&amp;quot;:&amp;quot;Share Your Feedback&amp;quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&amp;gt&amp;ltspan&amp;gtLet us know&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-row a-size-base a-color-secondary"&amp;gt&amp;lth5 class="s-line-clamp-1"&amp;gt&amp;ltspan class="a-size-base-plus a-color-base"&amp;gtAmazfit&amp;lt/span&amp;gt&amp;lt/h5&amp;gt&amp;lt/div&amp;gt&amp;lth2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&amp;gt&amp;ltspan class="a-size-base-plus a-color-base a-text-normal"&amp;gtAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;lt/h2&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&amp;gt&amp;ltdiv class="a-row"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&amp;gt&amp;ltspan id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&amp;gt&amp;ltspan id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&amp;gt&amp;ltspan class="a-badge-label-inner a-text-ellipsis"&amp;gt&amp;ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&amp;gtLimited time deal&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt  &amp;lt/a&amp;gt &amp;lt/div&amp;gt&amp;ltdiv class="a-row a-size-base a-color-base"&amp;gt&amp;lta class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&amp;gt&amp;ltspan class="a-price" data-a-size="l" data-a-color="price"&amp;gt&amp;ltspan class="a-offscreen"&amp;gt₹15,999&amp;lt/span&amp;gt&amp;ltspan aria-hidden="true"&amp;gt&amp;ltspan class="a-price-symbol"&amp;gt₹&amp;lt/span&amp;gt&amp;ltspan class="a-price-whole"&amp;gt15,999&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt &amp;ltspan class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&amp;gt&amp;ltspan class="a-offscreen"&amp;gt₹23,998&amp;lt/span&amp;gt&amp;ltspan aria-hidden="true"&amp;gt₹23,998&amp;lt/span&amp;gt&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;ltspan class="a-letter-space"&amp;gt&amp;lt/span&amp;gt&amp;ltspan&amp;gt(33% off)&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-none a-spacing-top-micro"&amp;gt&amp;ltdiv class="a-row a-size-base a-color-secondary s-align-children-center"&amp;gt&amp;ltspan aria-label="FREE Delivery by Amazon"&amp;gt&amp;ltspan class="a-color-base"&amp;gtFREE Delivery by Amazon&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon&lt;br&gt;innerhtml=&amp;ltdiv cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&amp;gt&amp;ltdiv data-component-type="s-impression-logger" data-component-props="{&amp;quot;percentageShownToFire&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;batchable&amp;quot;:true,&amp;quot;requiredElementSelector&amp;quot;:&amp;quot;.s-image:visible&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse&amp;amp;adId=20058002790498&amp;amp;eventType=1&amp;amp;adIndex=3&amp;quot;}" class="rush-component s-expand-height" data-component-id="41"&amp;gt    &amp;ltdiv data-component-type="s-impression-counter" data-component-props="{&amp;quot;presenceCounterName&amp;quot;:&amp;quot;sp_delivered&amp;quot;,&amp;quot;testElementSelector&amp;quot;:&amp;quot;.s-image&amp;quot;,&amp;quot;hiddenCounterName&amp;quot;:&amp;quot;sp_hidden&amp;quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&amp;gt    &amp;ltdiv class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&amp;gt&amp;ltdiv class="a-section a-spacing-base a-text-center"&amp;gt&amp;ltdiv class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&amp;gt&amp;ltspan data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&amp;quot;badgeType&amp;quot;:&amp;quot;best-seller&amp;quot;,&amp;quot;asin&amp;quot;:&amp;quot;B0B5D864PY&amp;quot;}" data-component-id="7"&amp;gt&amp;ltdiv class="a-row a-badge-region"&amp;gt&amp;ltspan id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&amp;gt&amp;ltspan id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&amp;gt&amp;ltspan class="a-badge-label-inner a-text-ellipsis"&amp;gt&amp;ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&amp;gtBest seller&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;ltspan id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&amp;gtin GPS Units&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;lt/div&amp;gt&amp;ltdiv class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&amp;gt&amp;ltdiv class="s-image-padding"&amp;gt&amp;ltspan data-component-type="s-product-image" class="rush-component"&amp;gt&amp;lta class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&amp;gt&amp;ltdiv class="a-section aok-relative s-image-tall-aspect"&amp;gt&amp;ltimg class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&amp;gt&amp;lt/div&amp;gt&amp;lt/a&amp;gt&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&amp;gt&amp;ltdiv class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&amp;gt&amp;ltspan class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&amp;quot;closeButton&amp;quot;:&amp;quot;true&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;preload&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;sp-info-popover-B0B5D864PY&amp;quot;,&amp;quot;position&amp;quot;:&amp;quot;triggerVertical&amp;quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&amp;gt&amp;lta href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&amp;gt&amp;ltspan class="s-label-popover-default"&amp;gt&amp;ltspan class="a-color-secondary"&amp;gtSponsored&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;ltspan class="s-label-popover-hover"&amp;gt&amp;ltspan class="a-color-base"&amp;gtSponsored&amp;lt/span&amp;gt&amp;lt/span&amp;gt &amp;ltspan class="aok-inline-block s-sponsored-label-info-icon"&amp;gt&amp;lt/span&amp;gt&amp;lt/a&amp;gt&amp;lt/span&amp;gt&amp;ltdiv class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&amp;gt&amp;ltspan&amp;gtYou are seeing this ad based on the product’s relevance to your search query.&amp;lt/span&amp;gt&amp;ltdiv class="a-row"&amp;gt&amp;ltspan class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&amp;quot;ajaxUrl&amp;quot;:&amp;quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;ajax&amp;quot;,&amp;quot;header&amp;quot;:&amp;quot;Share Your Feedback&amp;quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&amp;gt&amp;ltspan&amp;gtLet us know&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-row a-size-base a-color-secondary"&amp;gt&amp;lth5 class="s-line-clamp-1"&amp;gt&amp;ltspan class="a-size-base-plus a-color-base"&amp;gtAmazfit&amp;lt/span&amp;gt&amp;lt/h5&amp;gt&amp;lt/div&amp;gt&amp;lth2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&amp;gt&amp;ltspan class="a-size-base-plus a-color-base a-text-normal"&amp;gtAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;lt/h2&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&amp;gt&amp;ltdiv class="a-row"&amp;gt&amp;lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&amp;gt&amp;ltspan id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&amp;gt&amp;ltspan id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&amp;gt&amp;ltspan class="a-badge-label-inner a-text-ellipsis"&amp;gt&amp;ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&amp;gtLimited time deal&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt  &amp;lt/a&amp;gt &amp;lt/div&amp;gt&amp;ltdiv class="a-row a-size-base a-color-base"&amp;gt&amp;lta class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&amp;gt&amp;ltspan class="a-price" data-a-size="l" data-a-color="price"&amp;gt&amp;ltspan class="a-offscreen"&amp;gt₹15,999&amp;lt/span&amp;gt&amp;ltspan aria-hidden="true"&amp;gt&amp;ltspan class="a-price-symbol"&amp;gt₹&amp;lt/span&amp;gt&amp;ltspan class="a-price-whole"&amp;gt15,999&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt &amp;ltspan class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&amp;gt&amp;ltspan class="a-offscreen"&amp;gt₹23,998&amp;lt/span&amp;gt&amp;ltspan aria-hidden="true"&amp;gt₹23,998&amp;lt/span&amp;gt&amp;lt/span&amp;gt &amp;lt/a&amp;gt &amp;ltspan class="a-letter-space"&amp;gt&amp;lt/span&amp;gt&amp;ltspan&amp;gt(33% off)&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-none a-spacing-top-micro"&amp;gt&amp;ltdiv class="a-row a-size-base a-color-secondary s-align-children-center"&amp;gt&amp;ltspan aria-label="FREE Delivery by Amazon"&amp;gt&amp;ltspan class="a-color-base"&amp;gtFREE Delivery by Amazon&amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&lt;br&gt;html tag=DIV&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1936 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=DIV&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1809 matches)&lt;/SPAN&gt;&lt;br&gt;class=sg-col-inner&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 65 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-07-05 23:08:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+          <BasicMatch>1936</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1809</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[sg-col-inner]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>65</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Best sellerin GPS Units]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>xpath=//DIV[@id="search"]/DIV[1]/DIV[1]/DIV[1]/SPAN[3]/DIV[2]/DIV[5]/DIV[1]<br>outertext=Best seller Sponsored Amazfit Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999 ₹15,999 ₹23,998 ₹23,998 (33% off) FREE Delivery by Amazon<br>outerhtml=&ltdiv class="sg-col-inner"&gt&ltdiv cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&gt&ltdiv data-component-type="s-impression-logger" data-component-props="{&quot;percentageShownToFire&quot;:&quot;50&quot;,&quot;batchable&quot;:true,&quot;requiredElementSelector&quot;:&quot;.s-image:visible&quot;,&quot;url&quot;:&quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse&amp;adId=20058002790498&amp;eventType=1&amp;adIndex=3&quot;}" class="rush-component s-expand-height" data-component-id="41"&gt    &ltdiv data-component-type="s-impression-counter" data-component-props="{&quot;presenceCounterName&quot;:&quot;sp_delivered&quot;,&quot;testElementSelector&quot;:&quot;.s-image&quot;,&quot;hiddenCounterName&quot;:&quot;sp_hidden&quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&gt    &ltdiv class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&gt&ltdiv class="a-section a-spacing-base a-text-center"&gt&ltdiv class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&gt&ltspan data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&quot;badgeType&quot;:&quot;best-seller&quot;,&quot;asin&quot;:&quot;B0B5D864PY&quot;}" data-component-id="7"&gt&ltdiv class="a-row a-badge-region"&gt&ltspan id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&gt&ltspan id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&gt&ltspan class="a-badge-label-inner a-text-ellipsis"&gt&ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&gtBest seller&lt/span&gt&lt/span&gt&lt/span&gt&ltspan id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&gtin GPS Units&lt/span&gt&lt/span&gt&lt/div&gt&lt/span&gt &lt/a&gt &lt/div&gt&ltdiv class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&gt&ltdiv class="s-image-padding"&gt&ltspan data-component-type="s-product-image" class="rush-component"&gt&lta class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;adId=A02558262ORF2GSH4Z44O&amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse"&gt&ltdiv class="a-section aok-relative s-image-tall-aspect"&gt&ltimg class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&gt&lt/div&gt&lt/a&gt&lt/span&gt&lt/div&gt&lt/div&gt&ltdiv class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&gt&ltdiv class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&gt&ltspan class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&quot;closeButton&quot;:&quot;true&quot;,&quot;dataStrategy&quot;:&quot;preload&quot;,&quot;name&quot;:&quot;sp-info-popover-B0B5D864PY&quot;,&quot;position&quot;:&quot;triggerVertical&quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&gt&lta href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&gt&ltspan class="s-label-popover-default"&gt&ltspan class="a-color-secondary"&gtSponsored&lt/span&gt&lt/span&gt&ltspan class="s-label-popover-hover"&gt&ltspan class="a-color-base"&gtSponsored&lt/span&gt&lt/span&gt &ltspan class="aok-inline-block s-sponsored-label-info-icon"&gt&lt/span&gt&lt/a&gt&lt/span&gt&ltdiv class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&gt&ltspan&gtYou are seeing this ad based on the product’s relevance to your search query.&lt/span&gt&ltdiv class="a-row"&gt&ltspan class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&quot;ajaxUrl&quot;:&quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&quot;,&quot;dataStrategy&quot;:&quot;ajax&quot;,&quot;header&quot;:&quot;Share Your Feedback&quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&gt&ltspan&gtLet us know&lt/span&gt &lt/a&gt &lt/span&gt&lt/div&gt&lt/div&gt&ltdiv class="a-row a-size-base a-color-secondary"&gt&lth5 class="s-line-clamp-1"&gt&ltspan class="a-size-base-plus a-color-base"&gtAmazfit&lt/span&gt&lt/h5&gt&lt/div&gt&lth2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;adId=A02558262ORF2GSH4Z44O&amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse"&gt&ltspan class="a-size-base-plus a-color-base a-text-normal"&gtAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&lt/span&gt &lt/a&gt &lt/h2&gt&lt/div&gt&ltdiv class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&gt&ltdiv class="a-row"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&gt&ltspan id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&gt&ltspan id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&gt&ltspan class="a-badge-label-inner a-text-ellipsis"&gt&ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&gtLimited time deal&lt/span&gt&lt/span&gt&lt/span&gt&lt/span&gt  &lt/a&gt &lt/div&gt&ltdiv class="a-row a-size-base a-color-base"&gt&lta class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;adId=A02558262ORF2GSH4Z44O&amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse"&gt&ltspan class="a-price" data-a-size="l" data-a-color="price"&gt&ltspan class="a-offscreen"&gt₹15,999&lt/span&gt&ltspan aria-hidden="true"&gt&ltspan class="a-price-symbol"&gt₹&lt/span&gt&ltspan class="a-price-whole"&gt15,999&lt/span&gt&lt/span&gt&lt/span&gt &ltspan class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&gt&ltspan class="a-offscreen"&gt₹23,998&lt/span&gt&ltspan aria-hidden="true"&gt₹23,998&lt/span&gt&lt/span&gt &lt/a&gt &ltspan class="a-letter-space"&gt&lt/span&gt&ltspan&gt(33% off)&lt/span&gt&lt/div&gt&lt/div&gt&ltdiv class="a-section a-spacing-none a-spacing-top-micro"&gt&ltdiv class="a-row a-size-base a-color-secondary s-align-children-center"&gt&ltspan aria-label="FREE Delivery by Amazon"&gt&ltspan class="a-color-base"&gtFREE Delivery by Amazon&lt/span&gt&lt/span&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt<br>micclass=WebElement<br>innertext=Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon<br>innerhtml=&ltdiv cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&gt&ltdiv data-component-type="s-impression-logger" data-component-props="{&quot;percentageShownToFire&quot;:&quot;50&quot;,&quot;batchable&quot;:true,&quot;requiredElementSelector&quot;:&quot;.s-image:visible&quot;,&quot;url&quot;:&quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse&amp;adId=20058002790498&amp;eventType=1&amp;adIndex=3&quot;}" class="rush-component s-expand-height" data-component-id="41"&gt    &ltdiv data-component-type="s-impression-counter" data-component-props="{&quot;presenceCounterName&quot;:&quot;sp_delivered&quot;,&quot;testElementSelector&quot;:&quot;.s-image&quot;,&quot;hiddenCounterName&quot;:&quot;sp_hidden&quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&gt    &ltdiv class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&gt&ltdiv class="a-section a-spacing-base a-text-center"&gt&ltdiv class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&gt&ltspan data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&quot;badgeType&quot;:&quot;best-seller&quot;,&quot;asin&quot;:&quot;B0B5D864PY&quot;}" data-component-id="7"&gt&ltdiv class="a-row a-badge-region"&gt&ltspan id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&gt&ltspan id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&gt&ltspan class="a-badge-label-inner a-text-ellipsis"&gt&ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&gtBest seller&lt/span&gt&lt/span&gt&lt/span&gt&ltspan id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&gtin GPS Units&lt/span&gt&lt/span&gt&lt/div&gt&lt/span&gt &lt/a&gt &lt/div&gt&ltdiv class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&gt&ltdiv class="s-image-padding"&gt&ltspan data-component-type="s-product-image" class="rush-component"&gt&lta class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;adId=A02558262ORF2GSH4Z44O&amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse"&gt&ltdiv class="a-section aok-relative s-image-tall-aspect"&gt&ltimg class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&gt&lt/div&gt&lt/a&gt&lt/span&gt&lt/div&gt&lt/div&gt&ltdiv class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&gt&ltdiv class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&gt&ltspan class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&quot;closeButton&quot;:&quot;true&quot;,&quot;dataStrategy&quot;:&quot;preload&quot;,&quot;name&quot;:&quot;sp-info-popover-B0B5D864PY&quot;,&quot;position&quot;:&quot;triggerVertical&quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&gt&lta href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&gt&ltspan class="s-label-popover-default"&gt&ltspan class="a-color-secondary"&gtSponsored&lt/span&gt&lt/span&gt&ltspan class="s-label-popover-hover"&gt&ltspan class="a-color-base"&gtSponsored&lt/span&gt&lt/span&gt &ltspan class="aok-inline-block s-sponsored-label-info-icon"&gt&lt/span&gt&lt/a&gt&lt/span&gt&ltdiv class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&gt&ltspan&gtYou are seeing this ad based on the product’s relevance to your search query.&lt/span&gt&ltdiv class="a-row"&gt&ltspan class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&quot;ajaxUrl&quot;:&quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&quot;,&quot;dataStrategy&quot;:&quot;ajax&quot;,&quot;header&quot;:&quot;Share Your Feedback&quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&gt&ltspan&gtLet us know&lt/span&gt &lt/a&gt &lt/span&gt&lt/div&gt&lt/div&gt&ltdiv class="a-row a-size-base a-color-secondary"&gt&lth5 class="s-line-clamp-1"&gt&ltspan class="a-size-base-plus a-color-base"&gtAmazfit&lt/span&gt&lt/h5&gt&lt/div&gt&lth2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;adId=A02558262ORF2GSH4Z44O&amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse"&gt&ltspan class="a-size-base-plus a-color-base a-text-normal"&gtAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&lt/span&gt &lt/a&gt &lt/h2&gt&lt/div&gt&ltdiv class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&gt&ltdiv class="a-row"&gt&lta class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&gt&ltspan id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&gt&ltspan id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&gt&ltspan class="a-badge-label-inner a-text-ellipsis"&gt&ltspan class="a-badge-text" data-a-badge-color="sx-cloud"&gtLimited time deal&lt/span&gt&lt/span&gt&lt/span&gt&lt/span&gt  &lt/a&gt &lt/div&gt&ltdiv class="a-row a-size-base a-color-base"&gt&lta class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;adId=A02558262ORF2GSH4Z44O&amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;qualifier=1657041723&amp;id=3386323277483826&amp;widgetName=sp_atf_browse"&gt&ltspan class="a-price" data-a-size="l" data-a-color="price"&gt&ltspan class="a-offscreen"&gt₹15,999&lt/span&gt&ltspan aria-hidden="true"&gt&ltspan class="a-price-symbol"&gt₹&lt/span&gt&ltspan class="a-price-whole"&gt15,999&lt/span&gt&lt/span&gt&lt/span&gt &ltspan class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&gt&ltspan class="a-offscreen"&gt₹23,998&lt/span&gt&ltspan aria-hidden="true"&gt₹23,998&lt/span&gt&lt/span&gt &lt/a&gt &ltspan class="a-letter-space"&gt&lt/span&gt&ltspan&gt(33% off)&lt/span&gt&lt/div&gt&lt/div&gt&ltdiv class="a-section a-spacing-none a-spacing-top-micro"&gt&ltdiv class="a-row a-size-base a-color-secondary s-align-children-center"&gt&ltspan aria-label="FREE Delivery by Amazon"&gt&ltspan class="a-color-base"&gtFREE Delivery by Amazon&lt/span&gt&lt/span&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt&lt/div&gt<br>html tag=DIV<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1936 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=DIV<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+html id=<SPAN class=passed> (Used</SPAN>, 1809 matches)</SPAN><br>class=sg-col-inner<SPAN class=passed> (Used</SPAN>, 65 matches)</SPAN><br>innertext=Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="search"]/DIV[1]/DIV[1]/DIV[1]/SPAN[3]/DIV[2]/DIV[5]/DIV[1]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Best seller Sponsored Amazfit Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999 ₹15,999 ₹23,998 ₹23,998 (33% off) FREE Delivery by Amazon]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="sg-col-inner"&gt;&lt;div cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&gt;&lt;div data-component-type="s-impression-logger" data-component-props="{&amp;quot;percentageShownToFire&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;batchable&amp;quot;:true,&amp;quot;requiredElementSelector&amp;quot;:&amp;quot;.s-image:visible&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse&amp;amp;adId=20058002790498&amp;amp;eventType=1&amp;amp;adIndex=3&amp;quot;}" class="rush-component s-expand-height" data-component-id="41"&gt;    &lt;div data-component-type="s-impression-counter" data-component-props="{&amp;quot;presenceCounterName&amp;quot;:&amp;quot;sp_delivered&amp;quot;,&amp;quot;testElementSelector&amp;quot;:&amp;quot;.s-image&amp;quot;,&amp;quot;hiddenCounterName&amp;quot;:&amp;quot;sp_hidden&amp;quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&gt;    &lt;div class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&gt;&lt;div class="a-section a-spacing-base a-text-center"&gt;&lt;div class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&gt;&lt;span data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&amp;quot;badgeType&amp;quot;:&amp;quot;best-seller&amp;quot;,&amp;quot;asin&amp;quot;:&amp;quot;B0B5D864PY&amp;quot;}" data-component-id="7"&gt;&lt;div class="a-row a-badge-region"&gt;&lt;span id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&gt;&lt;span id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Best seller&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&gt;in GPS Units&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt;&lt;div class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&gt;&lt;div class="s-image-padding"&gt;&lt;span data-component-type="s-product-image" class="rush-component"&gt;&lt;a class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;div class="a-section aok-relative s-image-tall-aspect"&gt;&lt;img class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&gt;&lt;/div&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&gt;&lt;span class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&amp;quot;closeButton&amp;quot;:&amp;quot;true&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;preload&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;sp-info-popover-B0B5D864PY&amp;quot;,&amp;quot;position&amp;quot;:&amp;quot;triggerVertical&amp;quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&gt;&lt;a href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&gt;&lt;span class="s-label-popover-default"&gt;&lt;span class="a-color-secondary"&gt;Sponsored&lt;/span&gt;&lt;/span&gt;&lt;span class="s-label-popover-hover"&gt;&lt;span class="a-color-base"&gt;Sponsored&lt;/span&gt;&lt;/span&gt; &lt;span class="aok-inline-block s-sponsored-label-info-icon"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;div class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&gt;&lt;span&gt;You are seeing this ad based on the product’s relevance to your search query.&lt;/span&gt;&lt;div class="a-row"&gt;&lt;span class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&amp;quot;ajaxUrl&amp;quot;:&amp;quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;ajax&amp;quot;,&amp;quot;header&amp;quot;:&amp;quot;Share Your Feedback&amp;quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&gt;&lt;span&gt;Let us know&lt;/span&gt; &lt;/a&gt; &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-row a-size-base a-color-secondary"&gt;&lt;h5 class="s-line-clamp-1"&gt;&lt;span class="a-size-base-plus a-color-base"&gt;Amazfit&lt;/span&gt;&lt;/h5&gt;&lt;/div&gt;&lt;h2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-size-base-plus a-color-base a-text-normal"&gt;Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&lt;/span&gt; &lt;/a&gt; &lt;/h2&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&gt;&lt;div class="a-row"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&gt;&lt;span id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&gt;&lt;span id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Limited time deal&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/a&gt; &lt;/div&gt;&lt;div class="a-row a-size-base a-color-base"&gt;&lt;a class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-price" data-a-size="l" data-a-color="price"&gt;&lt;span class="a-offscreen"&gt;₹15,999&lt;/span&gt;&lt;span aria-hidden="true"&gt;&lt;span class="a-price-symbol"&gt;₹&lt;/span&gt;&lt;span class="a-price-whole"&gt;15,999&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&gt;&lt;span class="a-offscreen"&gt;₹23,998&lt;/span&gt;&lt;span aria-hidden="true"&gt;₹23,998&lt;/span&gt;&lt;/span&gt; &lt;/a&gt; &lt;span class="a-letter-space"&gt;&lt;/span&gt;&lt;span&gt;(33% off)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-micro"&gt;&lt;div class="a-row a-size-base a-color-secondary s-align-children-center"&gt;&lt;span aria-label="FREE Delivery by Amazon"&gt;&lt;span class="a-color-base"&gt;FREE Delivery by Amazon&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Best sellerin GPS Units SponsoredSponsored You are seeing this ad based on the product’s relevance to your search query.Let us know AmazfitAmazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black) Limited time deal ₹15,999₹15,999 ₹23,998₹23,998 (33% off)FREE Delivery by Amazon]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div cel_widget_id="MAIN-SEARCH_RESULTS-4" class="s-widget-container s-spacing-small s-widget-container-height-small celwidget slot=MAIN template=SEARCH_RESULTS widgetId=search-results_4" data-csa-c-id="852t81-21c8bv-2z15tl-drz07z" data-cel-widget="MAIN-SEARCH_RESULTS-4"&gt;&lt;div data-component-type="s-impression-logger" data-component-props="{&amp;quot;percentageShownToFire&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;batchable&amp;quot;:true,&amp;quot;requiredElementSelector&amp;quot;:&amp;quot;.s-image:visible&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;https://unagi-eu.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod?qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse&amp;amp;adId=20058002790498&amp;amp;eventType=1&amp;amp;adIndex=3&amp;quot;}" class="rush-component s-expand-height" data-component-id="41"&gt;    &lt;div data-component-type="s-impression-counter" data-component-props="{&amp;quot;presenceCounterName&amp;quot;:&amp;quot;sp_delivered&amp;quot;,&amp;quot;testElementSelector&amp;quot;:&amp;quot;.s-image&amp;quot;,&amp;quot;hiddenCounterName&amp;quot;:&amp;quot;sp_hidden&amp;quot;}" class="rush-component s-featured-result-item s-expand-height" data-component-id="6"&gt;    &lt;div class="s-card-container s-overflow-hidden aok-relative s-expand-height s-include-content-margin s-latency-cf-section s-card-border"&gt;&lt;div class="a-section a-spacing-base a-text-center"&gt;&lt;div class="a-section a-spacing-none a-text-left s-grid-status-badge-container-dark"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/bestsellers/sports/3403901031/ref=sr_bs_3_3403901031_1"&gt;&lt;span data-component-type="s-status-badge-component" class="rush-component" data-component-props="{&amp;quot;badgeType&amp;quot;:&amp;quot;best-seller&amp;quot;,&amp;quot;asin&amp;quot;:&amp;quot;B0B5D864PY&amp;quot;}" data-component-id="7"&gt;&lt;div class="a-row a-badge-region"&gt;&lt;span id="B0B5D864PY-best-seller" class="a-badge" aria-labelledby="B0B5D864PY-best-seller-label B0B5D864PY-best-seller-supplementary" data-a-badge-supplementary-position="right" tabindex="0" data-a-badge-type="status"&gt;&lt;span id="B0B5D864PY-best-seller-label" class="a-badge-label" data-a-badge-color="sx-orange" aria-hidden="true"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Best seller&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span id="B0B5D864PY-best-seller-supplementary" class="a-badge-supplementary-text a-text-ellipsis" aria-hidden="true"&gt;in GPS Units&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt; &lt;/a&gt; &lt;/div&gt;&lt;div class="s-product-image-container aok-relative s-image-overlay-grey s-text-center s-padding-left-small s-padding-right-small s-spacing-small s-height-equalized" style="padding-top: 0px !important;"&gt;&lt;div class="s-image-padding"&gt;&lt;span data-component-type="s-product-image" class="rush-component"&gt;&lt;a class="a-link-normal s-no-outline" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;div class="a-section aok-relative s-image-tall-aspect"&gt;&lt;img class="s-image" src="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg" srcset="https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL320_.jpg 1x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL480_FMwebp_QL65_.jpg 1.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL640_FMwebp_QL65_.jpg 2x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL800_FMwebp_QL65_.jpg 2.5x, https://m.media-amazon.com/images/I/51MGo6oVtXL._AC_UL960_FMwebp_QL65_.jpg 3x" alt="Sponsored Ad - Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-..." data-image-index="4" data-image-load="" data-image-latency="s-product-image" data-image-source-density="1"&gt;&lt;/div&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-small s-padding-left-micro s-padding-right-micro"&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-title-instructions-style"&gt;&lt;span class="a-declarative" data-action="a-popover" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-a-popover" data-a-popover="{&amp;quot;closeButton&amp;quot;:&amp;quot;true&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;preload&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;sp-info-popover-B0B5D864PY&amp;quot;,&amp;quot;position&amp;quot;:&amp;quot;triggerVertical&amp;quot;}" data-csa-c-id="iutd2a-e12xyy-l0s3g7-xujn5s"&gt;&lt;a href="javascript:void(0)" role="button" style="text-decoration: none;" aria-label="View Sponsored information or leave ad feedback" class="s-label-popover s-sponsored-label-text"&gt;&lt;span class="s-label-popover-default"&gt;&lt;span class="a-color-secondary"&gt;Sponsored&lt;/span&gt;&lt;/span&gt;&lt;span class="s-label-popover-hover"&gt;&lt;span class="a-color-base"&gt;Sponsored&lt;/span&gt;&lt;/span&gt; &lt;span class="aok-inline-block s-sponsored-label-info-icon"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;div class="a-popover-preload" id="a-popover-sp-info-popover-B0B5D864PY"&gt;&lt;span&gt;You are seeing this ad based on the product’s relevance to your search query.&lt;/span&gt;&lt;div class="a-row"&gt;&lt;span class="a-declarative" data-action="s-safe-ajax-modal-trigger" data-csa-c-type="widget" data-csa-c-func-deps="aui-da-s-safe-ajax-modal-trigger" data-s-safe-ajax-modal-trigger="{&amp;quot;ajaxUrl&amp;quot;:&amp;quot;/af/sp-loom/feedback-form?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22TWVu%22%2C%22pageType%22%3A%22Search%22%2C%22feedbackType%22%3A%22sponsoredProductsLoom%22%2C%22slotName%22%3A%22TOP%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1024%2C%22adCreativeDetails%22%3A%5B%7B%22asin%22%3A%22B0B5D864PY%22%2C%22title%22%3A%22Amazfit+T-Rex+2+Premium+Multisport+GPS+Sports+Watch%2C+150%2B+Sports+Modes%2C+Heart+Rate%2C+SpO2+Monitoring+%22%2C%22priceInfo%22%3A%7B%22amount%22%3A15999.0%2C%22currencyCode%22%3A%22INR%22%7D%2C%22sku%22%3A%22B0B5D864PY%22%2C%22adId%22%3A%22A02558262ORF2GSH4Z44O%22%2C%22campaignId%22%3A%22A03803961DM8HIXJR6SWD%22%7D%5D%7D%7D&amp;quot;,&amp;quot;dataStrategy&amp;quot;:&amp;quot;ajax&amp;quot;,&amp;quot;header&amp;quot;:&amp;quot;Share Your Feedback&amp;quot;}" data-csa-c-id="xt51t3-lin7ob-pnqy8h-xstlpr"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="#"&gt;&lt;span&gt;Let us know&lt;/span&gt; &lt;/a&gt; &lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-row a-size-base a-color-secondary"&gt;&lt;h5 class="s-line-clamp-1"&gt;&lt;span class="a-size-base-plus a-color-base"&gt;Amazfit&lt;/span&gt;&lt;/h5&gt;&lt;/div&gt;&lt;h2 class="a-size-mini a-spacing-none a-color-base s-line-clamp-2"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-size-base-plus a-color-base a-text-normal"&gt;Amazfit T-Rex 2 Premium Multisport GPS Sports Watch, 150+ Sports Modes, Heart Rate, SpO2 Monitoring and 24-Day Long Battery Life (Ember Black) + Amazfit Multi-Functional Sports Handbag (Black)&lt;/span&gt; &lt;/a&gt; &lt;/h2&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-small s-price-instructions-style"&gt;&lt;div class="a-row"&gt;&lt;a class="a-link-normal s-underline-text s-underline-link-text s-link-style" href="/gp/goldbox/"&gt;&lt;span id="BEST_DEAL_B0B5D864PY" class="a-badge" data-a-badge-type="deal"&gt;&lt;span id="BEST_DEAL_B0B5D864PY-label" class="a-badge-label" data-a-badge-color="sx-lightning-deal-red"&gt;&lt;span class="a-badge-label-inner a-text-ellipsis"&gt;&lt;span class="a-badge-text" data-a-badge-color="sx-cloud"&gt;Limited time deal&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/a&gt; &lt;/div&gt;&lt;div class="a-row a-size-base a-color-base"&gt;&lt;a class="a-size-base a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal" target="_blank" href="/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_browse_watches_sr_pg1_1?ie=UTF8&amp;amp;adId=A02558262ORF2GSH4Z44O&amp;amp;url=%2FAmazfit-Premium-Multisport-Monitoring-Multi-Functional%2Fdp%2FB0B5D864PY%2Fref%3Dsr_1_4_sspa%3Fqid%3D1657041723%26refinements%3Dp_n_pct-off-with-tax%253A27060457031%26rnid%3D2665398031%26s%3Dwatches%26sr%3D1-4-spons%26psc%3D1&amp;amp;qualifier=1657041723&amp;amp;id=3386323277483826&amp;amp;widgetName=sp_atf_browse"&gt;&lt;span class="a-price" data-a-size="l" data-a-color="price"&gt;&lt;span class="a-offscreen"&gt;₹15,999&lt;/span&gt;&lt;span aria-hidden="true"&gt;&lt;span class="a-price-symbol"&gt;₹&lt;/span&gt;&lt;span class="a-price-whole"&gt;15,999&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class="a-price a-text-price" data-a-size="b" data-a-strike="true" data-a-color="secondary"&gt;&lt;span class="a-offscreen"&gt;₹23,998&lt;/span&gt;&lt;span aria-hidden="true"&gt;₹23,998&lt;/span&gt;&lt;/span&gt; &lt;/a&gt; &lt;span class="a-letter-space"&gt;&lt;/span&gt;&lt;span&gt;(33% off)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-none a-spacing-top-micro"&gt;&lt;div class="a-row a-size-base a-color-secondary s-align-children-center"&gt;&lt;span aria-label="FREE Delivery by Amazon"&gt;&lt;span class="a-color-base"&gt;FREE Delivery by Amazon&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>33e3075af6b54ffd9fe8dd2bc9faa1e0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Clothing for Women online</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-05 23:07:42</StartTime>
+    <Duration>34</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>80d93e8e03c84ae5a116f0a9e4b64ddf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-05 23:07:31</StartTime>
+    <Duration>45</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>e02d36ea1ef34a5eabc52fa00d120fb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Discount</Name>
+    <Description>above70% discount products is not displayed</Description>
+    <StartTime>2022-07-05 23:08:16</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>21666cc1269243cbb5fe8bc032a781f9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action2</Name>
+    <Description />
+    <StartTime>2022-07-05 23:07:23</StartTime>
+    <Duration>53</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c361f23f79374f82a7d1604dc82dd1ba</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-05 23:07:17</StartTime>
+    <Duration>59</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6763f0a05f614352a99000976d9ae780</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user255</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-54</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res162</ResultName>
+    <RunStartTime>2022-07-05 23:07:17</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

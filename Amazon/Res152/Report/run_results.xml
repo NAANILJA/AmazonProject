@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-05 21:58:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>ecea39f84e5c48f6b2e70cdc5525ff8c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"Hello, Sign in Account"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2022-07-05 21:58:42</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Link]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <BasicMatch>194</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+            <Info><![CDATA[Skipped]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[nav-link-accountList]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[nav-a nav-a-2   nav-progressive-attribute nav-active]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=inflex&amp;openid.mode=checkid_setup&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Hello, Sign in Account]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//A[@id="nav-link-accountList"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="nav-line-1-container"&gt;&lt;span id="nav-link-accountList-nav-line-1" class="nav-line-1 nav-progressive-content"&gt;Hello, Sign in&lt;/span&gt;&lt;/div&gt;  &lt;span class="nav-line-2 "&gt;Account &amp;amp; Lists&lt;span class="nav-icon nav-arrow" style="visibility: visible;"&gt;&lt;/span&gt;  &lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>833a1ac85abe437a8ae2dd68e56eebbf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Hello, Sign in Account"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;xpath=//A[@id="nav-link-accountList"]&lt;br&gt;text=Hello, Sign in Account &amp; Lists&lt;br&gt;micclass=Link&lt;br&gt;innertext=Hello, Sign in Account &amp; Lists&lt;br&gt;innerhtml=&amp;ltdiv class="nav-line-1-container"&amp;gt&amp;ltspan id="nav-link-accountList-nav-line-1" class="nav-line-1 nav-progressive-content"&amp;gtHello, Sign in&amp;lt/span&amp;gt&amp;lt/div&amp;gt  &amp;ltspan class="nav-line-2 "&amp;gtAccount &amp;amp; Lists&amp;ltspan class="nav-icon nav-arrow" style="visibility: visible;"&amp;gt&amp;lt/span&amp;gt  &amp;lt/span&amp;gt&lt;br&gt;html tag=A&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (194 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Link&lt;br&gt;html tag=A&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+text=Hello, Sign in Account &amp; Lists&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;html id=nav-link-accountList&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;class=nav-a nav-a-2   nav-progressive-attribute nav-active&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;name=Hello, Sign in Account &amp; Lists&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;href=https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=inflex&amp;openid.mode=checkid_setup&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-07-05 21:58:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Link]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <BasicMatch>194</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+            <Info><![CDATA[Skipped]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[nav-link-accountList]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[nav-a nav-a-2   nav-progressive-attribute nav-active]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=inflex&amp;openid.mode=checkid_setup&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Hello, Sign in Account]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>xpath=//A[@id="nav-link-accountList"]<br>text=Hello, Sign in Account & Lists<br>micclass=Link<br>innertext=Hello, Sign in Account & Lists<br>innerhtml=&ltdiv class="nav-line-1-container"&gt&ltspan id="nav-link-accountList-nav-line-1" class="nav-line-1 nav-progressive-content"&gtHello, Sign in&lt/span&gt&lt/div&gt  &ltspan class="nav-line-2 "&gtAccount &amp; Lists&ltspan class="nav-icon nav-arrow" style="visibility: visible;"&gt&lt/span&gt  &lt/span&gt<br>html tag=A<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (194 objects found)&nbsp;</FONT></u><br>
+micclass=Link<br>html tag=A<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+text=Hello, Sign in Account & Lists<SPAN class=Failed> (Skipped)</SPAN><br>html id=nav-link-accountList<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>class=nav-a nav-a-2   nav-progressive-attribute nav-active<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>name=Hello, Sign in Account & Lists<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>href=https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//A[@id="nav-link-accountList"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="nav-line-1-container"&gt;&lt;span id="nav-link-accountList-nav-line-1" class="nav-line-1 nav-progressive-content"&gt;Hello, Sign in&lt;/span&gt;&lt;/div&gt;  &lt;span class="nav-line-2 "&gt;Account &amp;amp; Lists&lt;span class="nav-icon nav-arrow" style="visibility: visible;"&gt;&lt;/span&gt;  &lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a602b07e2baa4b3e9d67527c596b3b69</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Hello, Sign in Account.Click</Name>
+    <Description />
+    <StartTime>2022-07-05 21:58:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Hello, Sign in Account]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//A[@id="nav-link-accountList"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Hello, Sign in Account &amp; Lists]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="nav-line-1-container"&gt;&lt;span id="nav-link-accountList-nav-line-1" class="nav-line-1 nav-progressive-content"&gt;Hello, Sign in&lt;/span&gt;&lt;/div&gt;  &lt;span class="nav-line-2 "&gt;Account &amp;amp; Lists&lt;span class="nav-icon nav-arrow" style="visibility: visible;"&gt;&lt;/span&gt;  &lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>833a1ac85abe437a8ae2dd68e56eebbf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-05 21:58:42</StartTime>
+    <Duration>24</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>be266da3a37949b6b15b21f0d3df1cfd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-05 21:58:42</StartTime>
+    <Duration>24</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>8397c44a727740ec97907059fcf68597</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Please Enable Cookies</Name>
+    <ErrorText>Cannot identify the object "Please Enable Cookies" (of class WebElement).
+Verify that this object's properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"Please&amp;nbsp;Enable&amp;nbsp;Cookies"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;WebElement).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;xpath = //DIV[@id="a-page"]/DIV[1]&lt;br&gt;outertext = Sign-In Email or mobile phone number Continue By continuing, you agree to Amazon's Conditions of Use and Privacy Notice. Need help? New to Amazon? Create your Amazon account Conditions of Use Privacy Notice Help © 1996-2022, Amazon.com, Inc. or its affiliates&lt;br&gt;outerhtml = &amp;ltdiv class="a-section a-padding-medium auth-workflow"&amp;gt      &amp;ltdiv class="a-section a-spacing-none auth-navbar"&amp;gt        &amp;ltdiv class="a-section a-spacing-medium a-text-center"&amp;gt                &amp;lta class="a-link-nav-icon" tabindex="-1" href="/ref=ap_frn_logo"&amp;gt    &amp;lti class="a-icon a-icon-logo" role="img" aria-label="Amazon"&amp;gt&amp;lt/i&amp;gt                  &amp;lti class="a-icon a-icon-domain-in a-icon-domain" role="presentation"&amp;gt&amp;lt/i&amp;gt      &amp;lt/a&amp;gt      &amp;lt/div&amp;gt      &amp;lt/div&amp;gt      &amp;ltdiv id="authportal-center-section" class="a-section"&amp;gt                                        &amp;ltdiv id="authportal-main-section" class="a-section"&amp;gt              &amp;ltdiv class="a-section a-spacing-base auth-pagelet-container"&amp;gt                &amp;ltdiv id="auth-cookie-warning-message" class="a-box a-alert a-alert-warning" aria-live="polite" aria-atomic="true"&amp;gt&amp;ltdiv class="a-box-inner a-alert-container"&amp;gt&amp;lth4 class="a-alert-heading"&amp;gtPlease Enable Cookies to Continue&amp;lt/h4&amp;gt&amp;lti class="a-icon a-icon-alert"&amp;gt&amp;lt/i&amp;gt&amp;ltdiv class="a-alert-content"&amp;gt        &amp;ltp&amp;gt          &amp;lta class="a-link-normal" href="/gp/help/customer/display.html/ref=ap_cookie_error_help?"&amp;gt                      &amp;lt/a&amp;gt        &amp;lt/p&amp;gt      &amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt      &amp;lt/div&amp;gt&amp;ltdiv class="a-section auth-pagelet-container"&amp;gt  &amp;lt!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&amp;gt&amp;lt!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&amp;gt&amp;lt!-- show a warning modal dialog when the third party account is connected with Amazon --&amp;gt      &amp;ltdiv class="a-section a-spacing-base"&amp;gt  &amp;ltdiv class="a-section"&amp;gt        &amp;ltform name="signIn" method="post" novalidate="" action="https://www.amazon.in/ap/signin" class="auth-validate-form auth-real-time-validation a-spacing-none"&amp;gt      &amp;ltinput type="hidden" name="appActionToken" value="vz6j2BjmVXl27qV7vemaHUqVOpylQj3D"&amp;gt&amp;ltinput type="hidden" name="appAction" value="SIGNIN_PWD_COLLECT"&amp;gt      &amp;ltinput type="hidden" name="subPageType" value="SignInClaimCollect"&amp;gt            &amp;ltinput type="hidden" name="openid.return_to" value="ape:aHR0cHM6Ly93d3cuYW1hem9uLmluLz9yZWZfPW5hdl95YV9zaWduaW4="&amp;gt      &amp;ltinput type="hidden" name="prevRID" value="ape:SEc0MDcwMURHWjcxOENBNzRRRlE="&amp;gt      &amp;ltinput type="hidden" name="workflowState" value="eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.AfaojhoiJezfAkbm4oG0x92AoI-1KlcY3wdCN5_Edtp9OIo7VCYplw.jrydgMTEtQWs3aRX.QfAV2ixoHRRFJfsC-A8chqH0cg_-I_OXfSU2ywAneiJh2TKnh6Bxq1u6B0rf9JkjJgqlX74BRYJgDRbWLJg3KR3pDuScdjHIgWbvfDcu0L3ZNiDtiKjt-cLi6kjak5pZSCnzyQfCMpM9n0KJQtC21qd1rpP_0rER3IMlo2-Wd3vH8fkGlTXfKjIsYWupc27QDIAPVlEJnJYD372Fr8ZPGjoRFB1gsVo5x_G2A60skkdGq6pjcmHZyDsmjzeRi6qGzhHfSXmzs7UEb17Gr_lgIkcFYCq64apvAR1Xwapgy9e57s8Kxq87RPOCIq6IZtFNPbF5NrVOP7-opHkfOO0Ud79JqU29dwx-43G6oPAEPusHLg4.NjVr4NFRUHL5N_HJQyQA0Q"&amp;gt        &amp;ltdiv class="a-section"&amp;gt        &amp;ltdiv class="a-box"&amp;gt&amp;ltdiv class="a-box-inner a-padding-extra-large"&amp;gt          &amp;lth1 class="a-spacing-small"&amp;gt            Sign-In          &amp;lt/h1&amp;gt          &amp;lt!-- optional subheading element --&amp;gt                    &amp;ltdiv class="a-row a-spacing-base"&amp;gt            &amp;ltlabel for="ap_email" class="a-form-label"&amp;gt              Email or mobile phone number            &amp;lt/label&amp;gt                                                                                                          &amp;ltinput type="email" maxlength="128" id="ap_email" name="email" tabindex="1" class="a-input-text a-span12 auth-autofocus auth-required-field"&amp;gt                        &amp;ltinput type="password" maxlength="1024" id="ap-credential-autofill-hint" name="password" class="a-input-text hide"&amp;gt            &amp;ltdiv id="auth-email-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" role="alert"&amp;gt&amp;ltdiv class="a-box-inner a-alert-container"&amp;gt&amp;lti class="a-icon a-icon-alert"&amp;gt&amp;lt/i&amp;gt&amp;ltdiv class="a-alert-content"&amp;gt  Enter your email or mobile phone number&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt          &amp;lt/div&amp;gt                    &amp;ltinput type="hidden" name="create" value="0"&amp;gt          &amp;ltdiv class="a-section"&amp;gt                                                &amp;ltspan id="continue" class="a-button a-button-span12 a-button-primary"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;ltinput id="continue" tabindex="5" class="a-button-input" type="submit" aria-labelledby="continue-announce"&amp;gt&amp;ltspan id="continue-announce" class="a-button-text" aria-hidden="true"&amp;gt              Continue            &amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt                                      &amp;ltdiv id="legalTextRow" class="a-row a-spacing-top-medium a-size-small"&amp;gt  By continuing, you agree to Amazon's &amp;lta href="/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&amp;amp;nodeId=200545940"&amp;gtConditions of Use&amp;lt/a&amp;gt and &amp;lta href="/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&amp;gtPrivacy Notice&amp;lt/a&amp;gt.&amp;lt/div&amp;gt                         &amp;ltscript&amp;gt  function cf() {    if (typeof window.uet === 'function') {      uet('cf');    }    if (window.embedNotification &amp;&amp;      typeof window.embedNotification.onCF === 'function') {      embedNotification.onCF();    }  }&amp;lt/script&amp;gt&amp;ltscript type="text/javascript"&amp;gtcf()&amp;lt/script&amp;gt          &amp;lt/div&amp;gt                              &amp;ltdiv class="a-section"&amp;gt  &amp;ltdiv class="a-row a-expander-container a-expander-inline-container"&amp;gt    &amp;lta data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" data-a-expander-toggle="{&amp;quot;allowLinkDefault&amp;quot;:true, &amp;quot;expand_prompt&amp;quot;:&amp;quot;&amp;quot;, &amp;quot;collapse_prompt&amp;quot;:&amp;quot;&amp;quot;}" data-csa-c-id="wduqnp-18eei8-8fg2ec-meoion"&amp;gt&amp;lti class="a-icon a-icon-expand"&amp;gt&amp;lt/i&amp;gt&amp;ltspan class="a-expander-prompt"&amp;gt      Need help?    &amp;lt/span&amp;gt&amp;lt/a&amp;gt          &amp;ltdiv aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&amp;gt                  &amp;lta id="auth-fpp-link-bottom" class="a-link-normal" href="https://www.amazon.in/ap/forgotpassword?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"&amp;gt  Forgot Password&amp;lt/a&amp;gt      &amp;lt/div&amp;gt        &amp;ltdiv aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&amp;gt      &amp;lta id="ap-other-signin-issues-link" class="a-link-normal" href="/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8"&amp;gt        Other issues with Sign-In      &amp;lt/a&amp;gt    &amp;lt/div&amp;gt  &amp;lt/div&amp;gt&amp;lt/div&amp;gt                                                                                                        &amp;lt/div&amp;gt&amp;lt/div&amp;gt      &amp;lt/div&amp;gt    &amp;ltinput name="metadata1" type="hidden" value="true"&amp;gt&amp;lt/form&amp;gt  &amp;lt/div&amp;gt                                &amp;ltdiv class="a-divider a-divider-break"&amp;gt&amp;lth5&amp;gtNew to Amazon?&amp;lt/h5&amp;gt&amp;lt/div&amp;gt        &amp;ltspan id="auth-create-account-link" class="a-button a-button-span12 a-button-base"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;lta id="createAccountSubmit" tabindex="6" href="https://www.amazon.in/ap/register?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="a-button-text"&amp;gt          Create your Amazon account        &amp;lt/a&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt            &amp;lt/div&amp;gt    &amp;lt/div&amp;gt            &amp;lt/div&amp;gt                        &amp;lt/div&amp;gt            &amp;ltdiv id="right-2"&amp;gt      &amp;lt/div&amp;gt      &amp;ltdiv class="a-section a-spacing-top-extra-large auth-footer"&amp;gt        &amp;ltdiv class="a-divider a-divider-section"&amp;gt&amp;ltdiv class="a-divider-inner"&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-small a-text-center a-size-mini"&amp;gt  &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt                                        &amp;lta class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&amp;amp;nodeId=200545940"&amp;gt      Conditions of Use    &amp;lt/a&amp;gt    &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt                                        &amp;lta class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&amp;gt      Privacy Notice    &amp;lt/a&amp;gt    &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt                                        &amp;lta class="a-link-normal" target="_blank" href="/help"&amp;gt      Help    &amp;lt/a&amp;gt    &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt    &amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-none a-text-center"&amp;gt  &amp;ltspan class="a-size-mini a-color-secondary"&amp;gt  © 1996-2022, Amazon.com, Inc. or its affiliates&amp;lt/span&amp;gt&amp;lt/div&amp;gt      &amp;lt/div&amp;gt    &amp;lt/div&amp;gt&lt;br&gt;Mercury Class = WebElement&lt;br&gt;innerhtml = &amp;ltdiv class="a-section a-spacing-none auth-navbar"&amp;gt        &amp;ltdiv class="a-section a-spacing-medium a-text-center"&amp;gt                &amp;lta class="a-link-nav-icon" tabindex="-1" href="/ref=ap_frn_logo"&amp;gt    &amp;lti class="a-icon a-icon-logo" role="img" aria-label="Amazon"&amp;gt&amp;lt/i&amp;gt                  &amp;lti class="a-icon a-icon-domain-in a-icon-domain" role="presentation"&amp;gt&amp;lt/i&amp;gt      &amp;lt/a&amp;gt      &amp;lt/div&amp;gt      &amp;lt/div&amp;gt      &amp;ltdiv id="authportal-center-section" class="a-section"&amp;gt                                        &amp;ltdiv id="authportal-main-section" class="a-section"&amp;gt              &amp;ltdiv class="a-section a-spacing-base auth-pagelet-container"&amp;gt                &amp;ltdiv id="auth-cookie-warning-message" class="a-box a-alert a-alert-warning" aria-live="polite" aria-atomic="true"&amp;gt&amp;ltdiv class="a-box-inner a-alert-container"&amp;gt&amp;lth4 class="a-alert-heading"&amp;gtPlease Enable Cookies to Continue&amp;lt/h4&amp;gt&amp;lti class="a-icon a-icon-alert"&amp;gt&amp;lt/i&amp;gt&amp;ltdiv class="a-alert-content"&amp;gt        &amp;ltp&amp;gt          &amp;lta class="a-link-normal" href="/gp/help/customer/display.html/ref=ap_cookie_error_help?"&amp;gt                      &amp;lt/a&amp;gt        &amp;lt/p&amp;gt      &amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt      &amp;lt/div&amp;gt&amp;ltdiv class="a-section auth-pagelet-container"&amp;gt  &amp;lt!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&amp;gt&amp;lt!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&amp;gt&amp;lt!-- show a warning modal dialog when the third party account is connected with Amazon --&amp;gt      &amp;ltdiv class="a-section a-spacing-base"&amp;gt  &amp;ltdiv class="a-section"&amp;gt        &amp;ltform name="signIn" method="post" novalidate="" action="https://www.amazon.in/ap/signin" class="auth-validate-form auth-real-time-validation a-spacing-none"&amp;gt      &amp;ltinput type="hidden" name="appActionToken" value="vz6j2BjmVXl27qV7vemaHUqVOpylQj3D"&amp;gt&amp;ltinput type="hidden" name="appAction" value="SIGNIN_PWD_COLLECT"&amp;gt      &amp;ltinput type="hidden" name="subPageType" value="SignInClaimCollect"&amp;gt            &amp;ltinput type="hidden" name="openid.return_to" value="ape:aHR0cHM6Ly93d3cuYW1hem9uLmluLz9yZWZfPW5hdl95YV9zaWduaW4="&amp;gt      &amp;ltinput type="hidden" name="prevRID" value="ape:SEc0MDcwMURHWjcxOENBNzRRRlE="&amp;gt      &amp;ltinput type="hidden" name="workflowState" value="eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.AfaojhoiJezfAkbm4oG0x92AoI-1KlcY3wdCN5_Edtp9OIo7VCYplw.jrydgMTEtQWs3aRX.QfAV2ixoHRRFJfsC-A8chqH0cg_-I_OXfSU2ywAneiJh2TKnh6Bxq1u6B0rf9JkjJgqlX74BRYJgDRbWLJg3KR3pDuScdjHIgWbvfDcu0L3ZNiDtiKjt-cLi6kjak5pZSCnzyQfCMpM9n0KJQtC21qd1rpP_0rER3IMlo2-Wd3vH8fkGlTXfKjIsYWupc27QDIAPVlEJnJYD372Fr8ZPGjoRFB1gsVo5x_G2A60skkdGq6pjcmHZyDsmjzeRi6qGzhHfSXmzs7UEb17Gr_lgIkcFYCq64apvAR1Xwapgy9e57s8Kxq87RPOCIq6IZtFNPbF5NrVOP7-opHkfOO0Ud79JqU29dwx-43G6oPAEPusHLg4.NjVr4NFRUHL5N_HJQyQA0Q"&amp;gt        &amp;ltdiv class="a-section"&amp;gt        &amp;ltdiv class="a-box"&amp;gt&amp;ltdiv class="a-box-inner a-padding-extra-large"&amp;gt          &amp;lth1 class="a-spacing-small"&amp;gt            Sign-In          &amp;lt/h1&amp;gt          &amp;lt!-- optional subheading element --&amp;gt                    &amp;ltdiv class="a-row a-spacing-base"&amp;gt            &amp;ltlabel for="ap_email" class="a-form-label"&amp;gt              Email or mobile phone number            &amp;lt/label&amp;gt                                                                                                          &amp;ltinput type="email" maxlength="128" id="ap_email" name="email" tabindex="1" class="a-input-text a-span12 auth-autofocus auth-required-field"&amp;gt                        &amp;ltinput type="password" maxlength="1024" id="ap-credential-autofill-hint" name="password" class="a-input-text hide"&amp;gt            &amp;ltdiv id="auth-email-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" role="alert"&amp;gt&amp;ltdiv class="a-box-inner a-alert-container"&amp;gt&amp;lti class="a-icon a-icon-alert"&amp;gt&amp;lt/i&amp;gt&amp;ltdiv class="a-alert-content"&amp;gt  Enter your email or mobile phone number&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt          &amp;lt/div&amp;gt                    &amp;ltinput type="hidden" name="create" value="0"&amp;gt          &amp;ltdiv class="a-section"&amp;gt                                                &amp;ltspan id="continue" class="a-button a-button-span12 a-button-primary"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;ltinput id="continue" tabindex="5" class="a-button-input" type="submit" aria-labelledby="continue-announce"&amp;gt&amp;ltspan id="continue-announce" class="a-button-text" aria-hidden="true"&amp;gt              Continue            &amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt                                      &amp;ltdiv id="legalTextRow" class="a-row a-spacing-top-medium a-size-small"&amp;gt  By continuing, you agree to Amazon's &amp;lta href="/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&amp;amp;nodeId=200545940"&amp;gtConditions of Use&amp;lt/a&amp;gt and &amp;lta href="/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&amp;gtPrivacy Notice&amp;lt/a&amp;gt.&amp;lt/div&amp;gt                         &amp;ltscript&amp;gt  function cf() {    if (typeof window.uet === 'function') {      uet('cf');    }    if (window.embedNotification &amp;&amp;      typeof window.embedNotification.onCF === 'function') {      embedNotification.onCF();    }  }&amp;lt/script&amp;gt&amp;ltscript type="text/javascript"&amp;gtcf()&amp;lt/script&amp;gt          &amp;lt/div&amp;gt                              &amp;ltdiv class="a-section"&amp;gt  &amp;ltdiv class="a-row a-expander-container a-expander-inline-container"&amp;gt    &amp;lta data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" data-a-expander-toggle="{&amp;quot;allowLinkDefault&amp;quot;:true, &amp;quot;expand_prompt&amp;quot;:&amp;quot;&amp;quot;, &amp;quot;collapse_prompt&amp;quot;:&amp;quot;&amp;quot;}" data-csa-c-id="wduqnp-18eei8-8fg2ec-meoion"&amp;gt&amp;lti class="a-icon a-icon-expand"&amp;gt&amp;lt/i&amp;gt&amp;ltspan class="a-expander-prompt"&amp;gt      Need help?    &amp;lt/span&amp;gt&amp;lt/a&amp;gt          &amp;ltdiv aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&amp;gt                  &amp;lta id="auth-fpp-link-bottom" class="a-link-normal" href="https://www.amazon.in/ap/forgotpassword?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"&amp;gt  Forgot Password&amp;lt/a&amp;gt      &amp;lt/div&amp;gt        &amp;ltdiv aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&amp;gt      &amp;lta id="ap-other-signin-issues-link" class="a-link-normal" href="/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8"&amp;gt        Other issues with Sign-In      &amp;lt/a&amp;gt    &amp;lt/div&amp;gt  &amp;lt/div&amp;gt&amp;lt/div&amp;gt                                                                                                        &amp;lt/div&amp;gt&amp;lt/div&amp;gt      &amp;lt/div&amp;gt    &amp;ltinput name="metadata1" type="hidden" value="true"&amp;gt&amp;lt/form&amp;gt  &amp;lt/div&amp;gt                                &amp;ltdiv class="a-divider a-divider-break"&amp;gt&amp;lth5&amp;gtNew to Amazon?&amp;lt/h5&amp;gt&amp;lt/div&amp;gt        &amp;ltspan id="auth-create-account-link" class="a-button a-button-span12 a-button-base"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;lta id="createAccountSubmit" tabindex="6" href="https://www.amazon.in/ap/register?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="a-button-text"&amp;gt          Create your Amazon account        &amp;lt/a&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt            &amp;lt/div&amp;gt    &amp;lt/div&amp;gt            &amp;lt/div&amp;gt                        &amp;lt/div&amp;gt            &amp;ltdiv id="right-2"&amp;gt      &amp;lt/div&amp;gt      &amp;ltdiv class="a-section a-spacing-top-extra-large auth-footer"&amp;gt        &amp;ltdiv class="a-divider a-divider-section"&amp;gt&amp;ltdiv class="a-divider-inner"&amp;gt&amp;lt/div&amp;gt&amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-small a-text-center a-size-mini"&amp;gt  &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt                                        &amp;lta class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&amp;amp;nodeId=200545940"&amp;gt      Conditions of Use    &amp;lt/a&amp;gt    &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt                                        &amp;lta class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&amp;gt      Privacy Notice    &amp;lt/a&amp;gt    &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt                                        &amp;lta class="a-link-normal" target="_blank" href="/help"&amp;gt      Help    &amp;lt/a&amp;gt    &amp;ltspan class="auth-footer-seperator"&amp;gt&amp;lt/span&amp;gt    &amp;lt/div&amp;gt&amp;ltdiv class="a-section a-spacing-none a-text-center"&amp;gt  &amp;ltspan class="a-size-mini a-color-secondary"&amp;gt  © 1996-2022, Amazon.com, Inc. or its affiliates&amp;lt/span&amp;gt&amp;lt/div&amp;gt      &amp;lt/div&amp;gt&lt;br&gt;Html Tag = DIV&lt;br&gt;|Visible = -1&lt;br&gt;innertext = Please Enable Cookies to Continue Sign-In Email or mobile phone number Enter your email or mobile phone number Continue By continuing, you agree to Amazon's Conditions of Use and Privacy Notice. function cf() { if (typeof window.uet === 'function') { uet('cf'); } if (window.embedNotification &amp;&amp; typeof window.embedNotification.onCF === 'function') { embedNotification.onCF(); } } cf() Need help? Forgot Password Other issues with Sign-In New to Amazon? Create your Amazon account Conditions of Use Privacy Notice Help © 1996-2022, Amazon.com, Inc. or its affiliates&lt;br&gt;Html Id = &lt;br&gt;DHTML Class = a-section a-padding-medium auth-workflow&lt;br&gt;acc_name = &lt;br&gt;</Description>
+    <StartTime>2022-07-05 21:59:05</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\user255\Documents\AmazonProject\Object_Repository.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("Online Shopping site in").Page("Amazon Sign In").WebElement("Please Enable Cookies").Click]]></Scripts>
+          <LineNo><![CDATA[7]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[]]></ModuleName>
+          <FileName><![CDATA[]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[VBScript global code]]></Scripts>
+          <LineNo><![CDATA[0]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Sign In]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Please Enable Cookies]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"Please&nbsp;Enable&nbsp;Cookies"&nbsp;(of&nbsp;class&nbsp;WebElement).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="a-page"]/DIV[1]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Sign-In Email or mobile phone number Continue By continuing, you agree to Amazon's Conditions of Use and Privacy Notice. Need help? New to Amazon? Create your Amazon account Conditions of Use Privacy Notice Help © 1996-2022, Amazon.com, Inc. or its affiliates]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="a-section a-padding-medium auth-workflow"&gt;      &lt;div class="a-section a-spacing-none auth-navbar"&gt;        &lt;div class="a-section a-spacing-medium a-text-center"&gt;                &lt;a class="a-link-nav-icon" tabindex="-1" href="/ref=ap_frn_logo"&gt;    &lt;i class="a-icon a-icon-logo" role="img" aria-label="Amazon"&gt;&lt;/i&gt;                  &lt;i class="a-icon a-icon-domain-in a-icon-domain" role="presentation"&gt;&lt;/i&gt;      &lt;/a&gt;      &lt;/div&gt;      &lt;/div&gt;      &lt;div id="authportal-center-section" class="a-section"&gt;                                        &lt;div id="authportal-main-section" class="a-section"&gt;              &lt;div class="a-section a-spacing-base auth-pagelet-container"&gt;                &lt;div id="auth-cookie-warning-message" class="a-box a-alert a-alert-warning" aria-live="polite" aria-atomic="true"&gt;&lt;div class="a-box-inner a-alert-container"&gt;&lt;h4 class="a-alert-heading"&gt;Please Enable Cookies to Continue&lt;/h4&gt;&lt;i class="a-icon a-icon-alert"&gt;&lt;/i&gt;&lt;div class="a-alert-content"&gt;        &lt;p&gt;          &lt;a class="a-link-normal" href="/gp/help/customer/display.html/ref=ap_cookie_error_help?"&gt;                      &lt;/a&gt;        &lt;/p&gt;      &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;      &lt;/div&gt;&lt;div class="a-section auth-pagelet-container"&gt;  &lt;!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&gt;&lt;!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&gt;&lt;!-- show a warning modal dialog when the third party account is connected with Amazon --&gt;      &lt;div class="a-section a-spacing-base"&gt;  &lt;div class="a-section"&gt;        &lt;form name="signIn" method="post" novalidate="" action="https://www.amazon.in/ap/signin" class="auth-validate-form auth-real-time-validation a-spacing-none"&gt;      &lt;input type="hidden" name="appActionToken" value="vz6j2BjmVXl27qV7vemaHUqVOpylQj3D"&gt;&lt;input type="hidden" name="appAction" value="SIGNIN_PWD_COLLECT"&gt;      &lt;input type="hidden" name="subPageType" value="SignInClaimCollect"&gt;            &lt;input type="hidden" name="openid.return_to" value="ape:aHR0cHM6Ly93d3cuYW1hem9uLmluLz9yZWZfPW5hdl95YV9zaWduaW4="&gt;      &lt;input type="hidden" name="prevRID" value="ape:SEc0MDcwMURHWjcxOENBNzRRRlE="&gt;      &lt;input type="hidden" name="workflowState" value="eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.AfaojhoiJezfAkbm4oG0x92AoI-1KlcY3wdCN5_Edtp9OIo7VCYplw.jrydgMTEtQWs3aRX.QfAV2ixoHRRFJfsC-A8chqH0cg_-I_OXfSU2ywAneiJh2TKnh6Bxq1u6B0rf9JkjJgqlX74BRYJgDRbWLJg3KR3pDuScdjHIgWbvfDcu0L3ZNiDtiKjt-cLi6kjak5pZSCnzyQfCMpM9n0KJQtC21qd1rpP_0rER3IMlo2-Wd3vH8fkGlTXfKjIsYWupc27QDIAPVlEJnJYD372Fr8ZPGjoRFB1gsVo5x_G2A60skkdGq6pjcmHZyDsmjzeRi6qGzhHfSXmzs7UEb17Gr_lgIkcFYCq64apvAR1Xwapgy9e57s8Kxq87RPOCIq6IZtFNPbF5NrVOP7-opHkfOO0Ud79JqU29dwx-43G6oPAEPusHLg4.NjVr4NFRUHL5N_HJQyQA0Q"&gt;        &lt;div class="a-section"&gt;        &lt;div class="a-box"&gt;&lt;div class="a-box-inner a-padding-extra-large"&gt;          &lt;h1 class="a-spacing-small"&gt;            Sign-In          &lt;/h1&gt;          &lt;!-- optional subheading element --&gt;                    &lt;div class="a-row a-spacing-base"&gt;            &lt;label for="ap_email" class="a-form-label"&gt;              Email or mobile phone number            &lt;/label&gt;                                                                                                          &lt;input type="email" maxlength="128" id="ap_email" name="email" tabindex="1" class="a-input-text a-span12 auth-autofocus auth-required-field"&gt;                        &lt;input type="password" maxlength="1024" id="ap-credential-autofill-hint" name="password" class="a-input-text hide"&gt;            &lt;div id="auth-email-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" role="alert"&gt;&lt;div class="a-box-inner a-alert-container"&gt;&lt;i class="a-icon a-icon-alert"&gt;&lt;/i&gt;&lt;div class="a-alert-content"&gt;  Enter your email or mobile phone number&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;          &lt;/div&gt;                    &lt;input type="hidden" name="create" value="0"&gt;          &lt;div class="a-section"&gt;                                                &lt;span id="continue" class="a-button a-button-span12 a-button-primary"&gt;&lt;span class="a-button-inner"&gt;&lt;input id="continue" tabindex="5" class="a-button-input" type="submit" aria-labelledby="continue-announce"&gt;&lt;span id="continue-announce" class="a-button-text" aria-hidden="true"&gt;              Continue            &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;                                      &lt;div id="legalTextRow" class="a-row a-spacing-top-medium a-size-small"&gt;  By continuing, you agree to Amazon's &lt;a href="/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&amp;amp;nodeId=200545940"&gt;Conditions of Use&lt;/a&gt; and &lt;a href="/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&gt;Privacy Notice&lt;/a&gt;.&lt;/div&gt;                         &lt;script&gt;  function cf() {    if (typeof window.uet === 'function') {      uet('cf');    }    if (window.embedNotification &amp;&amp;      typeof window.embedNotification.onCF === 'function') {      embedNotification.onCF();    }  }&lt;/script&gt;&lt;script type="text/javascript"&gt;cf()&lt;/script&gt;          &lt;/div&gt;                              &lt;div class="a-section"&gt;  &lt;div class="a-row a-expander-container a-expander-inline-container"&gt;    &lt;a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" data-a-expander-toggle="{&amp;quot;allowLinkDefault&amp;quot;:true, &amp;quot;expand_prompt&amp;quot;:&amp;quot;&amp;quot;, &amp;quot;collapse_prompt&amp;quot;:&amp;quot;&amp;quot;}" data-csa-c-id="wduqnp-18eei8-8fg2ec-meoion"&gt;&lt;i class="a-icon a-icon-expand"&gt;&lt;/i&gt;&lt;span class="a-expander-prompt"&gt;      Need help?    &lt;/span&gt;&lt;/a&gt;          &lt;div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&gt;                  &lt;a id="auth-fpp-link-bottom" class="a-link-normal" href="https://www.amazon.in/ap/forgotpassword?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"&gt;  Forgot Password&lt;/a&gt;      &lt;/div&gt;        &lt;div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&gt;      &lt;a id="ap-other-signin-issues-link" class="a-link-normal" href="/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8"&gt;        Other issues with Sign-In      &lt;/a&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/div&gt;                                                                                                        &lt;/div&gt;&lt;/div&gt;      &lt;/div&gt;    &lt;input name="metadata1" type="hidden" value="true"&gt;&lt;/form&gt;  &lt;/div&gt;                                &lt;div class="a-divider a-divider-break"&gt;&lt;h5&gt;New to Amazon?&lt;/h5&gt;&lt;/div&gt;        &lt;span id="auth-create-account-link" class="a-button a-button-span12 a-button-base"&gt;&lt;span class="a-button-inner"&gt;&lt;a id="createAccountSubmit" tabindex="6" href="https://www.amazon.in/ap/register?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="a-button-text"&gt;          Create your Amazon account        &lt;/a&gt;&lt;/span&gt;&lt;/span&gt;            &lt;/div&gt;    &lt;/div&gt;            &lt;/div&gt;                        &lt;/div&gt;            &lt;div id="right-2"&gt;      &lt;/div&gt;      &lt;div class="a-section a-spacing-top-extra-large auth-footer"&gt;        &lt;div class="a-divider a-divider-section"&gt;&lt;div class="a-divider-inner"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-small a-text-center a-size-mini"&gt;  &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;                                        &lt;a class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&amp;amp;nodeId=200545940"&gt;      Conditions of Use    &lt;/a&gt;    &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;                                        &lt;a class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&gt;      Privacy Notice    &lt;/a&gt;    &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;                                        &lt;a class="a-link-normal" target="_blank" href="/help"&gt;      Help    &lt;/a&gt;    &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;    &lt;/div&gt;&lt;div class="a-section a-spacing-none a-text-center"&gt;  &lt;span class="a-size-mini a-color-secondary"&gt;  © 1996-2022, Amazon.com, Inc. or its affiliates&lt;/span&gt;&lt;/div&gt;      &lt;/div&gt;    &lt;/div&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Please Enable Cookies to Continue Sign-In Email or mobile phone number Enter your email or mobile phone number Continue By continuing, you agree to Amazon's Conditions of Use and Privacy Notice. function cf() { if (typeof window.uet === 'function') { uet('cf'); } if (window.embedNotification &amp;&amp; typeof window.embedNotification.onCF === 'function') { embedNotification.onCF(); } } cf() Need help? Forgot Password Other issues with Sign-In New to Amazon? Create your Amazon account Conditions of Use Privacy Notice Help © 1996-2022, Amazon.com, Inc. or its affiliates]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="a-section a-spacing-none auth-navbar"&gt;        &lt;div class="a-section a-spacing-medium a-text-center"&gt;                &lt;a class="a-link-nav-icon" tabindex="-1" href="/ref=ap_frn_logo"&gt;    &lt;i class="a-icon a-icon-logo" role="img" aria-label="Amazon"&gt;&lt;/i&gt;                  &lt;i class="a-icon a-icon-domain-in a-icon-domain" role="presentation"&gt;&lt;/i&gt;      &lt;/a&gt;      &lt;/div&gt;      &lt;/div&gt;      &lt;div id="authportal-center-section" class="a-section"&gt;                                        &lt;div id="authportal-main-section" class="a-section"&gt;              &lt;div class="a-section a-spacing-base auth-pagelet-container"&gt;                &lt;div id="auth-cookie-warning-message" class="a-box a-alert a-alert-warning" aria-live="polite" aria-atomic="true"&gt;&lt;div class="a-box-inner a-alert-container"&gt;&lt;h4 class="a-alert-heading"&gt;Please Enable Cookies to Continue&lt;/h4&gt;&lt;i class="a-icon a-icon-alert"&gt;&lt;/i&gt;&lt;div class="a-alert-content"&gt;        &lt;p&gt;          &lt;a class="a-link-normal" href="/gp/help/customer/display.html/ref=ap_cookie_error_help?"&gt;                      &lt;/a&gt;        &lt;/p&gt;      &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;      &lt;/div&gt;&lt;div class="a-section auth-pagelet-container"&gt;  &lt;!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&gt;&lt;!-- Set cross domain sso variables to be used for making Ajax calls to central Identity domain --&gt;&lt;!-- show a warning modal dialog when the third party account is connected with Amazon --&gt;      &lt;div class="a-section a-spacing-base"&gt;  &lt;div class="a-section"&gt;        &lt;form name="signIn" method="post" novalidate="" action="https://www.amazon.in/ap/signin" class="auth-validate-form auth-real-time-validation a-spacing-none"&gt;      &lt;input type="hidden" name="appActionToken" value="vz6j2BjmVXl27qV7vemaHUqVOpylQj3D"&gt;&lt;input type="hidden" name="appAction" value="SIGNIN_PWD_COLLECT"&gt;      &lt;input type="hidden" name="subPageType" value="SignInClaimCollect"&gt;            &lt;input type="hidden" name="openid.return_to" value="ape:aHR0cHM6Ly93d3cuYW1hem9uLmluLz9yZWZfPW5hdl95YV9zaWduaW4="&gt;      &lt;input type="hidden" name="prevRID" value="ape:SEc0MDcwMURHWjcxOENBNzRRRlE="&gt;      &lt;input type="hidden" name="workflowState" value="eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.AfaojhoiJezfAkbm4oG0x92AoI-1KlcY3wdCN5_Edtp9OIo7VCYplw.jrydgMTEtQWs3aRX.QfAV2ixoHRRFJfsC-A8chqH0cg_-I_OXfSU2ywAneiJh2TKnh6Bxq1u6B0rf9JkjJgqlX74BRYJgDRbWLJg3KR3pDuScdjHIgWbvfDcu0L3ZNiDtiKjt-cLi6kjak5pZSCnzyQfCMpM9n0KJQtC21qd1rpP_0rER3IMlo2-Wd3vH8fkGlTXfKjIsYWupc27QDIAPVlEJnJYD372Fr8ZPGjoRFB1gsVo5x_G2A60skkdGq6pjcmHZyDsmjzeRi6qGzhHfSXmzs7UEb17Gr_lgIkcFYCq64apvAR1Xwapgy9e57s8Kxq87RPOCIq6IZtFNPbF5NrVOP7-opHkfOO0Ud79JqU29dwx-43G6oPAEPusHLg4.NjVr4NFRUHL5N_HJQyQA0Q"&gt;        &lt;div class="a-section"&gt;        &lt;div class="a-box"&gt;&lt;div class="a-box-inner a-padding-extra-large"&gt;          &lt;h1 class="a-spacing-small"&gt;            Sign-In          &lt;/h1&gt;          &lt;!-- optional subheading element --&gt;                    &lt;div class="a-row a-spacing-base"&gt;            &lt;label for="ap_email" class="a-form-label"&gt;              Email or mobile phone number            &lt;/label&gt;                                                                                                          &lt;input type="email" maxlength="128" id="ap_email" name="email" tabindex="1" class="a-input-text a-span12 auth-autofocus auth-required-field"&gt;                        &lt;input type="password" maxlength="1024" id="ap-credential-autofill-hint" name="password" class="a-input-text hide"&gt;            &lt;div id="auth-email-missing-alert" class="a-box a-alert-inline a-alert-inline-error auth-inlined-error-message a-spacing-top-mini" role="alert"&gt;&lt;div class="a-box-inner a-alert-container"&gt;&lt;i class="a-icon a-icon-alert"&gt;&lt;/i&gt;&lt;div class="a-alert-content"&gt;  Enter your email or mobile phone number&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;          &lt;/div&gt;                    &lt;input type="hidden" name="create" value="0"&gt;          &lt;div class="a-section"&gt;                                                &lt;span id="continue" class="a-button a-button-span12 a-button-primary"&gt;&lt;span class="a-button-inner"&gt;&lt;input id="continue" tabindex="5" class="a-button-input" type="submit" aria-labelledby="continue-announce"&gt;&lt;span id="continue-announce" class="a-button-text" aria-hidden="true"&gt;              Continue            &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;                                      &lt;div id="legalTextRow" class="a-row a-spacing-top-medium a-size-small"&gt;  By continuing, you agree to Amazon's &lt;a href="/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&amp;amp;nodeId=200545940"&gt;Conditions of Use&lt;/a&gt; and &lt;a href="/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&gt;Privacy Notice&lt;/a&gt;.&lt;/div&gt;                         &lt;script&gt;  function cf() {    if (typeof window.uet === 'function') {      uet('cf');    }    if (window.embedNotification &amp;&amp;      typeof window.embedNotification.onCF === 'function') {      embedNotification.onCF();    }  }&lt;/script&gt;&lt;script type="text/javascript"&gt;cf()&lt;/script&gt;          &lt;/div&gt;                              &lt;div class="a-section"&gt;  &lt;div class="a-row a-expander-container a-expander-inline-container"&gt;    &lt;a data-csa-c-func-deps="aui-da-a-expander-toggle" data-csa-c-type="widget" data-csa-interaction-events="click" aria-expanded="false" role="button" href="javascript:void(0)" data-action="a-expander-toggle" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" data-a-expander-toggle="{&amp;quot;allowLinkDefault&amp;quot;:true, &amp;quot;expand_prompt&amp;quot;:&amp;quot;&amp;quot;, &amp;quot;collapse_prompt&amp;quot;:&amp;quot;&amp;quot;}" data-csa-c-id="wduqnp-18eei8-8fg2ec-meoion"&gt;&lt;i class="a-icon a-icon-expand"&gt;&lt;/i&gt;&lt;span class="a-expander-prompt"&gt;      Need help?    &lt;/span&gt;&lt;/a&gt;          &lt;div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&gt;                  &lt;a id="auth-fpp-link-bottom" class="a-link-normal" href="https://www.amazon.in/ap/forgotpassword?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"&gt;  Forgot Password&lt;/a&gt;      &lt;/div&gt;        &lt;div aria-expanded="false" class="a-expander-content a-expander-inline-content a-expander-inner" style="display:none"&gt;      &lt;a id="ap-other-signin-issues-link" class="a-link-normal" href="/gp/help/customer/account-issues/ref=ap_login_with_otp_claim_collection?ie=UTF8"&gt;        Other issues with Sign-In      &lt;/a&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/div&gt;                                                                                                        &lt;/div&gt;&lt;/div&gt;      &lt;/div&gt;    &lt;input name="metadata1" type="hidden" value="true"&gt;&lt;/form&gt;  &lt;/div&gt;                                &lt;div class="a-divider a-divider-break"&gt;&lt;h5&gt;New to Amazon?&lt;/h5&gt;&lt;/div&gt;        &lt;span id="auth-create-account-link" class="a-button a-button-span12 a-button-base"&gt;&lt;span class="a-button-inner"&gt;&lt;a id="createAccountSubmit" tabindex="6" href="https://www.amazon.in/ap/register?showRememberMe=true&amp;amp;openid.pape.max_auth_age=0&amp;amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;pageId=inflex&amp;amp;mobileBrowserWeblabTreatment=T1&amp;amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&amp;amp;prevRID=HG40701DGZ718CA74QFQ&amp;amp;openid.assoc_handle=inflex&amp;amp;openid.mode=checkid_setup&amp;amp;desktopBrowserWeblabTreatment=C&amp;amp;prepopulatedLoginId=&amp;amp;failedSignInCount=0&amp;amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="a-button-text"&gt;          Create your Amazon account        &lt;/a&gt;&lt;/span&gt;&lt;/span&gt;            &lt;/div&gt;    &lt;/div&gt;            &lt;/div&gt;                        &lt;/div&gt;            &lt;div id="right-2"&gt;      &lt;/div&gt;      &lt;div class="a-section a-spacing-top-extra-large auth-footer"&gt;        &lt;div class="a-divider a-divider-section"&gt;&lt;div class="a-divider-inner"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="a-section a-spacing-small a-text-center a-size-mini"&gt;  &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;                                        &lt;a class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&amp;amp;nodeId=200545940"&gt;      Conditions of Use    &lt;/a&gt;    &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;                                        &lt;a class="a-link-normal" target="_blank" href="/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&amp;amp;nodeId=200534380"&gt;      Privacy Notice    &lt;/a&gt;    &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;                                        &lt;a class="a-link-normal" target="_blank" href="/help"&gt;      Help    &lt;/a&gt;    &lt;span class="auth-footer-seperator"&gt;&lt;/span&gt;    &lt;/div&gt;&lt;div class="a-section a-spacing-none a-text-center"&gt;  &lt;span class="a-size-mini a-color-secondary"&gt;  © 1996-2022, Amazon.com, Inc. or its affiliates&lt;/span&gt;&lt;/div&gt;      &lt;/div&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[DIV]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>94f927d5df6846519d611fb5e42c07ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\c03a81a8-f0c0-4901-bf7e-6d50881322f3.jpeg" highlight="0,0,1440,756" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-05 21:59:06</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>8397c44a727740ec97907059fcf68597</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2022-07-05 21:59:11</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>b45841a27e2e48b69c80cd6b54f46625</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3ec5c0b7-372c-4214-b0f6-32f4230d719b.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-05 21:58:10</StartTime>
+    <Duration>61</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>94046abee300471099d212a5d07eb8ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user255</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-54</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res152</ResultName>
+    <RunStartTime>2022-07-05 21:58:10</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,331 @@
+﻿'Women-----------------------
+Function BeautyPro()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res 
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Women_3").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Women_3").Click
+wait(5)
+Browser("Browser").Page("Women's fashion: Buy clothing,").Image("Beauty").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Image("Beauty").Click
+Browser("Browser").Page("Buy Cosmetic products,").Link("Hair Care").Highlight
+Browser("Browser").Page("Buy Cosmetic products,").Link("Hair Care").Click
+Browser("Browser").Page("Clothing for Women online").Link("Hair Oils_2").Highlight
+Browser("Browser").Page("Clothing for Women online").Link("Hair Oils_2").Click
+Browser("Browser").Page("Clothing for Women online").Link("price₹225.00 Parachute").Highlight
+Browser("Browser").Page("Clothing for Women online").Link("price₹225.00 Parachute").Click
+Res=Browser("Browser").Page("Buy Parachute 100 % Pure").WebElement("productTitle").GetROProperty("text")
+Browser("Browser").Page("Buy Parachute 100 % Pure").WebElement("ppd").Check CheckPoint("ppd_2")
+If InStr(searchString,Res)>=0 Then
+	Reporter.ReportEvent miccPass,"BeautyPro","Pass"
+	BeautyPro="Pass"
+else
+       Reporter.ReportEvent miccFail,"BeautyPro","Fail"
+       BeautyPro="Fail"
+End If
+End Function
+
+'Men------------------------------------
+ Function Discount()
+Dim searchString,Res,Res1
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_2").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_2").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Watches_2").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Watches_2").Click
+Browser("Browser").Page("Clothing for Women online").Link("50% Off or more").Highlight
+Browser("Browser").Page("Clothing for Women online").Link("50% Off or more").Click
+Res=Browser("Browser").Page("Clothing for Women online").WebElement("RESULTS").GetRoProperty("Text")
+If InStr(searchString,Res)>=0 Then
+	Reporter.ReportEvent miccPass,"Discount","Pass"
+	Discount="Pass"
+else
+       Reporter.ReportEvent miccFail,"Discount","Fail"
+       Discount="Fail"
+End If
+End Function
+
+Function Review()
+Dim searchString,Res
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Wallets").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Wallets").Click
+Browser("Browser").Page("Clothing for Women online").Link("4 Stars & Up & Up").Highlight
+Browser("Browser").Page("Clothing for Women online").Link("4 Stars & Up & Up").Click
+Res=Browser("Browser").Page("Clothing for Women online").WebElement("Avg. Customer Review").GetROProperty("text")
+If Instr( searchString,Res)>= 0 Then
+	Reporter.ReportEvent miccPass,"Review","Pass"
+	Review="Pass"
+else
+       Reporter.ReportEvent miccFail,"Review","Fail"
+       Review="Fail"
+End If
+End Function
+
+Function NewArrival()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Last 30 days").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Last 30 days").Click
+Res=Browser("Browser").Page("Clothing for Women online").WebElement("Last 30 days_2").GetRoProperty("text")
+If Instr( searchString,Res) Then
+	Reporter.ReportEvent miccPass,"NewArrival","Pass"
+	NewArrival="Pass"
+else
+       Reporter.ReportEvent miccFail,"NewArrival","Fail"
+       NewArrival="Fail"
+End If
+End Function
+
+Function Size()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Clothing_3").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Clothing_3").Click
+wait(5)
+Browser("Browser").Page("Clothing for Women online").Link("T-Shirts & Polos").Highlight
+Browser("Browser").Page("Clothing for Women online").Link("T-Shirts & Polos").Click
+Browser("Browser").Page("Clothing for Women online").WebButton("XL").Highlight
+Browser("Browser").Page("Clothing for Women online").WebButton("XL").Click
+Res=Browser("Browser").Page("Clothing for Women online").WebButton("XL").GetROProperty("text")
+If InStr( searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Size","Pass"
+	Size="Pass"
+else
+       Reporter.ReportEvent miccFail,"Size","Fail"
+       Size="Fail"
+End If
+End Function
+
+Function Pattern()
+ 'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Clothing_3").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Clothing_3").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").Link("Suits & Blazers").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").Link("Animal print").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").WebElement("5 results").Highlight
+Res=Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").WebElement("5 results").GetROProperty("text")
+If InStr(searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Pattern","Pass"
+	Pattern="Pass"
+else
+       Reporter.ReportEvent miccFail,"Pattern","Fail"
+       Pattern="Fail"
+End If
+ End Function
+ 
+ Function Price()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Men_3").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Watches_3").Click
+Browser("Browser").Page("Clothing for Women online").Link("Under ₹2,000").Click
+Browser("Browser").Page("Clothing for Women online").WebElement("Under ₹2,000").Highlight
+Res=Browser("Browser").Page("Clothing for Women online").WebElement("Under ₹2,000").GetROProperty("text")
+If InStr (searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Price","Pass"
+	Price="Pass"
+else
+       Reporter.ReportEvent miccFail,"Price","Fail"
+       Price="Fail"
+End If
+End Function
+
+'Bags & Luggage--------------------------------
+Function Top_Brands()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Bags & Luggage").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Bags & Luggage").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Men's Fashion: Buy Men's").Link("Top Brands").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Men's Fashion: Buy Men's").Link("Top Brands").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").WebElement("1-48 of over 10,000 results").Highlight
+Res=Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").WebElement("1-48 of over 10,000 results").GetROProperty("text")
+If InStr (searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Top_Brands","Pass"
+	Top_Brands="Pass"
+else
+       Reporter.ReportEvent miccFail,"Top_Brands","Fail"
+      Top_Brands="Fail" 
+End If
+End Function
+
+Function Material()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")	
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Bags & Luggage_2").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Bags & Luggage_2").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Men's Fashion: Buy Men's").Link("Canvas").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Men's Fashion: Buy Men's").Link("Canvas").Click
+Res=Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").WebElement("Canvas").GetROProperty("text")
+If InStr (searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Material","Pass"
+	Material="Pass"
+else
+       Reporter.ReportEvent miccFail,"Material","Fail"
+       Material="Fail"
+End If
+End Function
+
+Function Availability()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")	
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Bags & Luggage_2").Highlight
+Browser("Browser").Page("Amazon Fashion: Clothing,").Link("Bags & Luggage_2").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Include Out of Stock").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Include Out of Stock").Click
+Res=Browser("Browser").Page("Clothing for Women online").WebElement("Include Out of Stock").GetROProperty("text")
+If InStr (searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Availability","Pass"
+	Availability="Pass"
+else
+       Reporter.ReportEvent miccFail,"Availability","Fail"
+       Availability="Fail"
+End If
+End Function
+
+Function Delivery_Day()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")	
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Sportswear").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Sportswear").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Men's Fashion: Buy Men's").Link("Sport Specific Clothing").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Men's Fashion: Buy Men's").Link("Sport Specific Clothing").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").Link("Get It by Tomorrow").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").Link("Get It by Tomorrow").Click
+Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").WebElement("Get It by Tomorrow").Highlight
+Res=Browser("Buy EYEBOGLER Men's Solid").Page("Clothing for Men online").WebElement("Get It by Tomorrow").GetROProperty("text")
+If InStr (searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Delivery_Day","Pass"
+	Delivery_Day="Pass"
+else
+       Reporter.ReportEvent miccFail,"Delivery_Day","Fail"
+       Delivery_Day="Fail"
+End If
+End Function
+
+Function Seller()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")	
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Sportswear").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Sportswear").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("MBM USA Stores").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("MBM USA Stores").Click
+Browser("Browser").Page("Clothing for Women online").WebElement("MBM USA Stores").Highlight
+Res=Browser("Browser").Page("Clothing for Women online").WebElement("MBM USA Stores").GetROProperty("text")
+If InStr (searchString,Res) Then
+	Reporter.ReportEvent miccPass,"Seller","Pass"
+	Seller="Pass"
+else
+       Reporter.ReportEvent miccFail,"Seller","Fail"
+       Seller="Fail"
+End If
+End Function
+
+Function PriceRange()
+'SystemUtil.CloseProcessByName"chrome.exe"
+'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Highlight
+Browser("Browser").Page("Online Shopping site in").Link("Fashion").Click
+wait(5)
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Sportswear").Highlight
+Browser("Buy EYEBOGLER Men's Solid").Page("Amazon Fashion: Clothing,").Link("Sportswear").Click
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Sport Specific Clothing_2").Highlight
+Browser("Browser").Page("Women's fashion: Buy clothing,").Link("Sport Specific Clothing_2").Click
+wait(5)
+Browser("Browser").Page("Clothing for Women online").WebEdit("low-price").Set "500"
+Browser("Browser").Page("Clothing for Women online").WebEdit("high-price").Set "800"
+Browser("Browser").Page("Clothing for Women online").WebButton("Go").Highlight
+Browser("Browser").Page("Clothing for Women online").WebButton("Go").Click
+Browser("Browser").Page("Clothing for Women online").WebElement("₹ ₹ Go").Highlight
+Res=Browser("Browser").Page("Clothing for Women online").WebElement("₹ ₹ Go").GetROProperty("text")
+If InStr (searchString,Res) Then
+	Reporter.ReportEvent miccPass,"PriceRange","Pass"
+	PriceRange="Pass"
+else
+       Reporter.ReportEvent miccFail,"PriceRange","Fail"
+       PriceRange="Fail"
+End If
+End Function
+
+
+
+
+
+
+
+
+
+
+
+
