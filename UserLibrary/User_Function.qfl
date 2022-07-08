@@ -1,6 +1,6 @@
 ﻿'Verify functionality of Fashion page
 Function  Fashion()
-'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
 Dim SearchString,Res
 SearchString=DataTable.Value("Expected_Result","Test Data")
 Browser( browserObject).Page(pageObject).Link( fashionObject).Highlight
@@ -19,7 +19,7 @@ End Function
 
 'Verify functonality of Women Menu page
 Function  Women()
-'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
 Dim SearchString,Res
 SearchString=DataTable.Value("Expected_Result","Test Data")
 Browser( browserObject).Page(pageObject).Link( fashionObject).Highlight
@@ -40,7 +40,7 @@ End Function
 
 'Verify functonality of  westernWear bar-----------------
 Function Western_Wear()
-'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
 Dim searchString,res
 searchString =DataTable.Value("Expected_Result","Test Data")
 Browser( browserObject).Page(pageObject).Link( fashionObject).Highlight
@@ -66,7 +66,7 @@ End Function
 
 'Verify functonality of Men Menu page
 Function Men()
-'Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
 Dim searchString,res
 searchString= DataTable.Value("Expected_Result","Test Data")
 Browser( browserObject).Page(pageObject).Link( fashionObject).Highlight
@@ -89,33 +89,32 @@ Else
        Reporter.ReportEvent micFail,"Men","Fail"
        Men="Fail"
 End If
-'SystemUtil.CloseProcessByName"chrome.exe"
 End Function
 
-'Verify functionality of Bas & Luggage
-'Function Bag_Lugg()
-''Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
-'Dim searchString,res
-'searchString=DataTable.Value("Expected_Result","Test Data")
-'wait(5)
-'Browser( browserObject).Page(pageObject).Link( fashionObject).Highlight
-'Browser(browserObject).Page(pageObject).Link( fashionObject).Click
-'wait(5)
-'Browser(browserObject).Page(pageObject).WebElement(bag_LulObject).Highlight
-'Browser(browserObject).Page(pageObject).WebElement(bag_LulObject).Click
-'Browser(browserObject).Page(pageObject).WebElement(safariObject).Highlight
-'Browser(browserObject).Page(pageObject).WebElement(safariObject).Click
-'res=Browser(browserObject).Page(pageObject).WebElement(ch_3Object).GetRoProperty("text")
-'wait(5)
-'If InStr(searchString,res)>=0 Then
-'	Reporter.ReportEvent miccPass,"Bags & Luggage","Pass"
-'	Bag_Lugg="Pass"
-'Else
-'       Reporter.ReportEvent miccFail,"Bags & Luggage","Fail"
-'       Bag_Lugg="Fail"
-'End If
-''SystemUtil.CloseProcessByName"chrome.exe"
-'End Function
+ of Bas & Luggage
+Function Bag_Lugg()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,res
+searchString=DataTable.Value("Expected_Result","Test Data")
+wait(5)
+Browser( browserObject).Page(pageObject).Link( fashionObject).Highlight
+Browser(browserObject).Page(pageObject).Link( fashionObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(bag_LulObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(bag_LulObject).Click
+Browser(browserObject).Page(pageObject).WebElement(safariObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(safariObject).Click
+res=Browser(browserObject).Page(pageObject).WebElement(ch_3Object).GetRoProperty("text")
+wait(5)
+If InStr(searchString,res)>=0 Then
+	Reporter.ReportEvent miccPass,"Bags & Luggage","Pass"
+	Bag_Lugg="Pass"
+Else
+       Reporter.ReportEvent miccFail,"Bags & Luggage","Fail"
+       Bag_Lugg="Fail"
+End If
+'SystemUtil.CloseProcessByName"chrome.exe"
+End Function
 
 
 '5) Verify functionality of Sportswear

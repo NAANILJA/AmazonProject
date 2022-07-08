@@ -1,0 +1,2718 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2022-07-08 01:55:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>1b9de0a32f1e416bb5172615ab28b27c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_020</Name>
+    <Description>Transaction "TC_020" started.</Description>
+    <StartTime>2022-07-08 01:55:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>64056204c6b34141a96607b8d2425aa6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ New Tab ].Navigate</Name>
+    <Description>Navigate to www.amazon.in&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2022-07-08 01:55:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ New Tab ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to www.amazon.in<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Fashion.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:55:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Fashion]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:55:46</StartTime>
+    <Duration>27</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:55:46</StartTime>
+    <Duration>27</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Bags &amp; Luggage_2.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:56:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Bags & Luggage_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="nav-subnav"]/A[5]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Bags &amp; Luggage]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Bags &amp; Luggage]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="nav-a-content"&gt;      Bags &amp;amp; Luggage          &lt;/span&gt;    &lt;span class="nav-arrow"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon Fashion: Clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:56:13</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Canvas.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:56:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Men's Fashion: Buy Men's]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Canvas]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/A[normalize-space()="Canvas"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="a-checkbox a-checkbox-fancy aok-float-left apb-browse-refinements-checkbox"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;            &lt;span class="a-size-base a-color-base" dir="auto"&gt;Canvas&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Men's Fashion: Buy Men's</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:56:18</StartTime>
+    <Duration>22</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Men's Fashion: Buy Men's]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"Canvas"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2022-07-08 01:56:40</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[LI]]></Value>
+          </Property>
+          <BasicMatch>157</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[p_n_material_browse/2917511031]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[a-spacing-micro]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Men online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Canvas]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="filters"]/UL/LI[normalize-space()="Canvas"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;li id="p_n_material_browse/2917511031" aria-label="Canvas" class="a-spacing-micro"&gt;&lt;span class="a-list-item"&gt;        &lt;a data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;amp;bbn=2454169031&amp;amp;rh=n%3A2454169031&amp;amp;dc&amp;amp;qid=1657095907&amp;amp;rnid=2917509031&amp;amp;ref=sr_nr_p_n_material_browse_2&amp;amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&gt;          &lt;div class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value="" checked=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;    &lt;span class="a-size-base a-color-base a-text-bold"&gt;Canvas&lt;/span&gt;          &lt;/a&gt;    &lt;/span&gt;&lt;/li&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="a-list-item"&gt;        &lt;a data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;amp;bbn=2454169031&amp;amp;rh=n%3A2454169031&amp;amp;dc&amp;amp;qid=1657095907&amp;amp;rnid=2917509031&amp;amp;ref=sr_nr_p_n_material_browse_2&amp;amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&gt;          &lt;div class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value="" checked=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;    &lt;span class="a-size-base a-color-base a-text-bold"&gt;Canvas&lt;/span&gt;          &lt;/a&gt;    &lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[LI]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>30ecf766ee0140b5aa63034163bc4060</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Canvas"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;xpath=//DIV[@id="filters"]/UL/LI[normalize-space()="Canvas"]&lt;br&gt;outertext=Canvas&lt;br&gt;outerhtml=&amp;ltli id="p_n_material_browse/2917511031" aria-label="Canvas" class="a-spacing-micro"&amp;gt&amp;ltspan class="a-list-item"&amp;gt        &amp;lta data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;amp;bbn=2454169031&amp;amp;rh=n%3A2454169031&amp;amp;dc&amp;amp;qid=1657095907&amp;amp;rnid=2917509031&amp;amp;ref=sr_nr_p_n_material_browse_2&amp;amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&amp;gt          &amp;ltdiv class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&amp;gt&amp;ltlabel&amp;gt&amp;ltinput type="checkbox" name="" value="" checked=""&amp;gt&amp;lti class="a-icon a-icon-checkbox"&amp;gt&amp;lt/i&amp;gt&amp;ltspan class="a-label a-checkbox-label"&amp;gt&amp;lt/span&amp;gt&amp;lt/label&amp;gt&amp;lt/div&amp;gt    &amp;ltspan class="a-size-base a-color-base a-text-bold"&amp;gtCanvas&amp;lt/span&amp;gt          &amp;lt/a&amp;gt    &amp;lt/span&amp;gt&amp;lt/li&amp;gt&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=Canvas&lt;br&gt;innerhtml=&amp;ltspan class="a-list-item"&amp;gt        &amp;lta data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;amp;bbn=2454169031&amp;amp;rh=n%3A2454169031&amp;amp;dc&amp;amp;qid=1657095907&amp;amp;rnid=2917509031&amp;amp;ref=sr_nr_p_n_material_browse_2&amp;amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&amp;gt          &amp;ltdiv class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&amp;gt&amp;ltlabel&amp;gt&amp;ltinput type="checkbox" name="" value="" checked=""&amp;gt&amp;lti class="a-icon a-icon-checkbox"&amp;gt&amp;lt/i&amp;gt&amp;ltspan class="a-label a-checkbox-label"&amp;gt&amp;lt/span&amp;gt&amp;lt/label&amp;gt&amp;lt/div&amp;gt    &amp;ltspan class="a-size-base a-color-base a-text-bold"&amp;gtCanvas&amp;lt/span&amp;gt          &amp;lt/a&amp;gt    &amp;lt/span&amp;gt&lt;br&gt;html tag=LI&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (157 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=LI&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+html id=p_n_material_browse/2917511031&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;class=a-spacing-micro&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;innertext=Canvas&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=Canvas&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-07-08 01:56:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[LI]]></Value>
+          </Property>
+          <BasicMatch>157</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[p_n_material_browse/2917511031]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[a-spacing-micro]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Men online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Canvas]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>xpath=//DIV[@id="filters"]/UL/LI[normalize-space()="Canvas"]<br>outertext=Canvas<br>outerhtml=&ltli id="p_n_material_browse/2917511031" aria-label="Canvas" class="a-spacing-micro"&gt&ltspan class="a-list-item"&gt        &lta data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;bbn=2454169031&amp;rh=n%3A2454169031&amp;dc&amp;qid=1657095907&amp;rnid=2917509031&amp;ref=sr_nr_p_n_material_browse_2&amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&gt          &ltdiv class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&gt&ltlabel&gt&ltinput type="checkbox" name="" value="" checked=""&gt&lti class="a-icon a-icon-checkbox"&gt&lt/i&gt&ltspan class="a-label a-checkbox-label"&gt&lt/span&gt&lt/label&gt&lt/div&gt    &ltspan class="a-size-base a-color-base a-text-bold"&gtCanvas&lt/span&gt          &lt/a&gt    &lt/span&gt&lt/li&gt<br>micclass=WebElement<br>innertext=Canvas<br>innerhtml=&ltspan class="a-list-item"&gt        &lta data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;bbn=2454169031&amp;rh=n%3A2454169031&amp;dc&amp;qid=1657095907&amp;rnid=2917509031&amp;ref=sr_nr_p_n_material_browse_2&amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&gt          &ltdiv class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&gt&ltlabel&gt&ltinput type="checkbox" name="" value="" checked=""&gt&lti class="a-icon a-icon-checkbox"&gt&lt/i&gt&ltspan class="a-label a-checkbox-label"&gt&lt/span&gt&lt/label&gt&lt/div&gt    &ltspan class="a-size-base a-color-base a-text-bold"&gtCanvas&lt/span&gt          &lt/a&gt    &lt/span&gt<br>html tag=LI<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (157 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=LI<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+html id=p_n_material_browse/2917511031<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>class=a-spacing-micro<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>innertext=Canvas<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=Canvas<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="filters"]/UL/LI[normalize-space()="Canvas"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;li id="p_n_material_browse/2917511031" aria-label="Canvas" class="a-spacing-micro"&gt;&lt;span class="a-list-item"&gt;        &lt;a data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;amp;bbn=2454169031&amp;amp;rh=n%3A2454169031&amp;amp;dc&amp;amp;qid=1657095907&amp;amp;rnid=2917509031&amp;amp;ref=sr_nr_p_n_material_browse_2&amp;amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&gt;          &lt;div class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value="" checked=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;    &lt;span class="a-size-base a-color-base a-text-bold"&gt;Canvas&lt;/span&gt;          &lt;/a&gt;    &lt;/span&gt;&lt;/li&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Canvas]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="a-list-item"&gt;        &lt;a data-routing="" class="a-link-normal s-navigation-item" tabindex="-1" href="/s?i=luggage&amp;amp;bbn=2454169031&amp;amp;rh=n%3A2454169031&amp;amp;dc&amp;amp;qid=1657095907&amp;amp;rnid=2917509031&amp;amp;ref=sr_nr_p_n_material_browse_2&amp;amp;ds=v1%3AGwhBDxKAyyP11ROkZcCfqNgBgX60%2F7F9RSGiVoEhaDc"&gt;          &lt;div class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value="" checked=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;    &lt;span class="a-size-base a-color-base a-text-bold"&gt;Canvas&lt;/span&gt;          &lt;/a&gt;    &lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[LI]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8c6deb67f01e46089a29c59d97b50896</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Clothing for Men online</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:56:40</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Men online]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Buy EYEBOGLER Men's Solid</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:56:13</StartTime>
+    <Duration>27</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Material</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-08 01:56:40</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>e1b68248c748473697a8afa4ed7daac8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_020</Name>
+    <Description>Transaction "TC_020" ended with "Pass" status (Total Duration: 62.0033 sec Wasted Time: 25.6357 sec).</Description>
+    <StartTime>2022-07-08 01:56:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>15938d6220104e57b4467f1ded6e6aa4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_021</Name>
+    <Description>Transaction "TC_021" started.</Description>
+    <StartTime>2022-07-08 01:56:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>64056204c6b34141a96607b8d2425aa6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Amazon.in ].Navigate</Name>
+    <Description>Navigate to www.amazon.in&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2022-07-08 01:56:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon.in ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to www.amazon.in<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Fashion.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:56:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Fashion]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:56:46</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Bags &amp; Luggage_2.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:56:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Bags & Luggage_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="nav-subnav"]/A[5]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Bags &amp; Luggage]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Bags &amp; Luggage]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="nav-a-content"&gt;      Bags &amp;amp; Luggage          &lt;/span&gt;    &lt;span class="nav-arrow"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon Fashion: Clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:56:52</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Include Out of Stock.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:56:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Include Out of Stock]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV/UL/LI/SPAN/A[normalize-space()="Include Out of Stock"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Include Out of Stock]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Include Out of Stock]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="a-checkbox a-checkbox-fancy aok-float-left apb-browse-refinements-checkbox"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;            &lt;span class="a-size-base a-color-base" dir="auto"&gt;Include Out of Stock&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Women's fashion: Buy clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:56:57</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:56:46</StartTime>
+    <Duration>17</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Availability</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-08 01:57:03</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>e1b68248c748473697a8afa4ed7daac8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_021</Name>
+    <Description>Transaction "TC_021" ended with "Pass" status (Total Duration: 22.9453 sec Wasted Time: 0.0547 sec).</Description>
+    <StartTime>2022-07-08 01:57:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>15938d6220104e57b4467f1ded6e6aa4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_022</Name>
+    <Description>Transaction "TC_022" started.</Description>
+    <StartTime>2022-07-08 01:57:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>64056204c6b34141a96607b8d2425aa6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Amazon.in ].Navigate</Name>
+    <Description>Navigate to www.amazon.in&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2022-07-08 01:57:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon.in ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to www.amazon.in<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Fashion.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:57:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Fashion]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:57:07</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:57:07</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sportswear.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:57:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Sportswear]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="nav-subnav"]/A[6]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Sportswear]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Sportswear]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="nav-a-content"&gt;      Sportswear          &lt;/span&gt;    &lt;span class="nav-arrow"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon Fashion: Clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:57:14</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sport Specific Clothing.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:57:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Men's Fashion: Buy Men's]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Sport Specific Clothing]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="s-refinements"]/DIV[1]/UL[1]/LI[10]/SPAN[1]/A[1]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Sport Specific Clothing]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Sport Specific Clothing]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span dir="auto"&gt;Sport Specific Clothing&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Men's Fashion: Buy Men's</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:57:19</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Men's Fashion: Buy Men's]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Get It by Tomorrow.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:57:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Men online]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Get It by Tomorrow]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/A[normalize-space()="Get It by Tomorrow"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Get It by Tomorrow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Get It by Tomorrow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;    &lt;span class="a-size-base a-color-base"&gt;Get It by Tomorrow&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Clothing for Men online</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:57:26</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Men online]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Buy EYEBOGLER Men's Solid</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:57:14</StartTime>
+    <Duration>19</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Delivery_Day</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-08 01:57:33</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>e1b68248c748473697a8afa4ed7daac8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_022</Name>
+    <Description>Transaction "TC_022" ended with "Pass" status (Total Duration: 29.5149 sec Wasted Time: 0.0880 sec).</Description>
+    <StartTime>2022-07-08 01:57:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>15938d6220104e57b4467f1ded6e6aa4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_023</Name>
+    <Description>Transaction "TC_023" started.</Description>
+    <StartTime>2022-07-08 01:57:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>64056204c6b34141a96607b8d2425aa6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Amazon.in ].Navigate</Name>
+    <Description>Navigate to www.amazon.in&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2022-07-08 01:57:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon.in ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to www.amazon.in<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Fashion.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:57:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Fashion]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:57:38</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:57:38</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sportswear.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:57:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Sportswear]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="nav-subnav"]/A[6]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Sportswear]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Sportswear]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="nav-a-content"&gt;      Sportswear          &lt;/span&gt;    &lt;span class="nav-arrow"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon Fashion: Clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:57:45</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Buy EYEBOGLER Men's Solid</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:57:45</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>MBM USA Stores.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:57:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[MBM USA Stores]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/A[normalize-space()="MBM USA Stores"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[MBM USA Stores]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[MBM USA Stores]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;div class="a-checkbox a-checkbox-fancy aok-float-left apb-browse-refinements-checkbox"&gt;&lt;label&gt;&lt;input type="checkbox" name="" value=""&gt;&lt;i class="a-icon a-icon-checkbox"&gt;&lt;/i&gt;&lt;span class="a-label a-checkbox-label"&gt;&lt;/span&gt;&lt;/label&gt;&lt;/div&gt;            &lt;span class="a-size-base a-color-base" dir="auto"&gt;MBM USA Stores&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Women's fashion: Buy clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:57:50</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:57:50</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Seller</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-08 01:57:57</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>e1b68248c748473697a8afa4ed7daac8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_023</Name>
+    <Description>Transaction "TC_023" ended with "Pass" status (Total Duration: 23.7767 sec Wasted Time: 0.0764 sec).</Description>
+    <StartTime>2022-07-08 01:57:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>15938d6220104e57b4467f1ded6e6aa4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_024</Name>
+    <Description>Transaction "TC_024" started.</Description>
+    <StartTime>2022-07-08 01:57:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>64056204c6b34141a96607b8d2425aa6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Start Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ Amazon.in ].Navigate</Name>
+    <Description>Navigate to www.amazon.in&lt;br&gt;Target Frame: _top&lt;br&gt;Post Data: &lt;br&gt;HTTP Headers: </Description>
+    <StartTime>2022-07-08 01:57:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ Amazon.in ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to www.amazon.in<br>Target Frame: _top<br>Post Data: <br>HTTP Headers: ]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Fashion.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:58:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Fashion]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Fashion]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Online Shopping site in</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:58:02</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Online Shopping site in]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:58:02</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sportswear.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:58:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Sportswear]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="nav-subnav"]/A[6]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Sportswear]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Sportswear]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span class="nav-a-content"&gt;      Sportswear          &lt;/span&gt;    &lt;span class="nav-arrow"&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon Fashion: Clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:58:09</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Amazon Fashion: Clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Buy EYEBOGLER Men's Solid</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:58:09</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Buy EYEBOGLER Men's Solid]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sport Specific Clothing_2.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:58:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Sport Specific Clothing_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//DIV[@id="s-refinements"]/DIV[1]/UL[1]/LI[10]/SPAN[1]/A[1]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Sport Specific Clothing]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Sport Specific Clothing]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;span dir="auto"&gt;Sport Specific Clothing&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>da381c0338e04da08d983059a3094af2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Women's fashion: Buy clothing,</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:58:13</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Women's fashion: Buy clothing,]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>low-price.Set</Name>
+    <Description>"500"</Description>
+    <StartTime>2022-07-08 01:58:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[low-price]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["500"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[placeholder]]></Name>
+            <Value><![CDATA[Min]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8202e210ed03443f9897050afbfe283a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>high-price.Set</Name>
+    <Description>"800"</Description>
+    <StartTime>2022-07-08 01:58:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[high-price]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["800"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[placeholder]]></Name>
+            <Value><![CDATA[Max]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8202e210ed03443f9897050afbfe283a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Go.Click</Name>
+    <Description />
+    <StartTime>2022-07-08 01:58:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Go]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b740d25c7dca4f50ade3d8eb91ed090a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"₹ ₹ Go"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2022-07-08 01:58:48</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+          <BasicMatch>4</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>3</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[₹ ₹ Go]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;form method="get" action="/s"&gt;                     &lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;      &lt;/form&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>30ecf766ee0140b5aa63034163bc4060</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"₹ ₹ Go"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;xpath=//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]&lt;br&gt;outertext=₹ ₹ Go&lt;br&gt;outerhtml=&amp;ltform method="get" action="/s"&amp;gt                     &amp;ltinput type="hidden" name="i" value="apparel"&amp;gt                     &amp;ltinput type="hidden" name="bbn" value="12302882031"&amp;gt                     &amp;ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&amp;gt                     &amp;ltinput type="hidden" name="dc"&amp;gt                     &amp;ltinput type="hidden" name="qid" value="1657099276"&amp;gt                     &amp;ltinput type="hidden" name="rnid" value="1318502031"&amp;gt                     &amp;ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&amp;gt                                    &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&amp;gt&amp;ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&amp;gt            Go         &amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt      &amp;lt/form&amp;gt&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=₹ ₹ Go&lt;br&gt;innerhtml=&amp;ltinput type="hidden" name="i" value="apparel"&amp;gt                     &amp;ltinput type="hidden" name="bbn" value="12302882031"&amp;gt                     &amp;ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&amp;gt                     &amp;ltinput type="hidden" name="dc"&amp;gt                     &amp;ltinput type="hidden" name="qid" value="1657099276"&amp;gt                     &amp;ltinput type="hidden" name="rnid" value="1318502031"&amp;gt                     &amp;ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&amp;gt                                    &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&amp;gt&amp;ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&amp;gt            Go         &amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt&lt;br&gt;html tag=FORM&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (4 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=FORM&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;class=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=₹ ₹ Go&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-07-08 01:58:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+          <BasicMatch>4</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>3</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[₹ ₹ Go]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>xpath=//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]<br>outertext=₹ ₹ Go<br>outerhtml=&ltform method="get" action="/s"&gt                     &ltinput type="hidden" name="i" value="apparel"&gt                     &ltinput type="hidden" name="bbn" value="12302882031"&gt                     &ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt                     &ltinput type="hidden" name="dc"&gt                     &ltinput type="hidden" name="qid" value="1657099276"&gt                     &ltinput type="hidden" name="rnid" value="1318502031"&gt                     &ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&gt                                    &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt&ltspan class="a-button-inner"&gt&ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt&ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt            Go         &lt/span&gt&lt/span&gt&lt/span&gt      &lt/form&gt<br>micclass=WebElement<br>innertext=₹ ₹ Go<br>innerhtml=&ltinput type="hidden" name="i" value="apparel"&gt                     &ltinput type="hidden" name="bbn" value="12302882031"&gt                     &ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt                     &ltinput type="hidden" name="dc"&gt                     &ltinput type="hidden" name="qid" value="1657099276"&gt                     &ltinput type="hidden" name="rnid" value="1318502031"&gt                     &ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&gt                                    &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt&ltspan class="a-button-inner"&gt&ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt&ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt            Go         &lt/span&gt&lt/span&gt&lt/span&gt<br>html tag=FORM<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (4 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=FORM<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+html id=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>class=<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>innertext=₹ ₹ Go<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;form method="get" action="/s"&gt;                     &lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;      &lt;/form&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8c6deb67f01e46089a29c59d97b50896</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"₹ ₹ Go"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2022-07-08 01:59:11</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+          <BasicMatch>4</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>3</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[₹ ₹ Go]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;form method="get" action="/s"&gt;                     &lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;      &lt;/form&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>30ecf766ee0140b5aa63034163bc4060</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"₹ ₹ Go"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;xpath=//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]&lt;br&gt;outertext=₹ ₹ Go&lt;br&gt;outerhtml=&amp;ltform method="get" action="/s"&amp;gt                     &amp;ltinput type="hidden" name="i" value="apparel"&amp;gt                     &amp;ltinput type="hidden" name="bbn" value="12302882031"&amp;gt                     &amp;ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&amp;gt                     &amp;ltinput type="hidden" name="dc"&amp;gt                     &amp;ltinput type="hidden" name="qid" value="1657099276"&amp;gt                     &amp;ltinput type="hidden" name="rnid" value="1318502031"&amp;gt                     &amp;ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&amp;gt                                    &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&amp;gt&amp;ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&amp;gt            Go         &amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt      &amp;lt/form&amp;gt&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=₹ ₹ Go&lt;br&gt;innerhtml=&amp;ltinput type="hidden" name="i" value="apparel"&amp;gt                     &amp;ltinput type="hidden" name="bbn" value="12302882031"&amp;gt                     &amp;ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&amp;gt                     &amp;ltinput type="hidden" name="dc"&amp;gt                     &amp;ltinput type="hidden" name="qid" value="1657099276"&amp;gt                     &amp;ltinput type="hidden" name="rnid" value="1318502031"&amp;gt                     &amp;ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&amp;gt                                    &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&amp;gt₹&amp;lt/span&amp;gt         &amp;ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&amp;gt         &amp;ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&amp;gt&amp;ltspan class="a-button-inner"&amp;gt&amp;ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&amp;gt&amp;ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&amp;gt            Go         &amp;lt/span&amp;gt&amp;lt/span&amp;gt&amp;lt/span&amp;gt&lt;br&gt;html tag=FORM&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (4 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=FORM&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 3 matches)&lt;/SPAN&gt;&lt;br&gt;class=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=₹ ₹ Go&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-07-08 01:59:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+          <BasicMatch>4</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>3</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[₹ ₹ Go]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>xpath=//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]<br>outertext=₹ ₹ Go<br>outerhtml=&ltform method="get" action="/s"&gt                     &ltinput type="hidden" name="i" value="apparel"&gt                     &ltinput type="hidden" name="bbn" value="12302882031"&gt                     &ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt                     &ltinput type="hidden" name="dc"&gt                     &ltinput type="hidden" name="qid" value="1657099276"&gt                     &ltinput type="hidden" name="rnid" value="1318502031"&gt                     &ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&gt                                    &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt&ltspan class="a-button-inner"&gt&ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt&ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt            Go         &lt/span&gt&lt/span&gt&lt/span&gt      &lt/form&gt<br>micclass=WebElement<br>innertext=₹ ₹ Go<br>innerhtml=&ltinput type="hidden" name="i" value="apparel"&gt                     &ltinput type="hidden" name="bbn" value="12302882031"&gt                     &ltinput type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt                     &ltinput type="hidden" name="dc"&gt                     &ltinput type="hidden" name="qid" value="1657099276"&gt                     &ltinput type="hidden" name="rnid" value="1318502031"&gt                     &ltinput type="hidden" name="ref" value="sr_nr_p_36_1"&gt                                    &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt₹&lt/span&gt         &ltinput type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt         &ltspan class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt&ltspan class="a-button-inner"&gt&ltinput class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt&ltspan class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt            Go         &lt/span&gt&lt/span&gt&lt/span&gt<br>html tag=FORM<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (4 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=FORM<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+html id=<SPAN class=passed> (Used</SPAN>, 3 matches)</SPAN><br>class=<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>innertext=₹ ₹ Go<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//LI/SPAN/FORM[normalize-space()="₹ ₹ Go"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;form method="get" action="/s"&gt;                     &lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;      &lt;/form&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[₹ ₹ Go]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[&lt;input type="hidden" name="i" value="apparel"&gt;                     &lt;input type="hidden" name="bbn" value="12302882031"&gt;                     &lt;input type="hidden" name="rh" value="n:6648217031,n:12302882031,n:26978634031,p_36:50000-80000"&gt;                     &lt;input type="hidden" name="dc"&gt;                     &lt;input type="hidden" name="qid" value="1657099276"&gt;                     &lt;input type="hidden" name="rnid" value="1318502031"&gt;                     &lt;input type="hidden" name="ref" value="sr_nr_p_36_1"&gt;                                    &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="500" id="low-price" placeholder="Min" name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-color-base s-ref-small-padding-left s-ref-price-currency"&gt;₹&lt;/span&gt;         &lt;input type="text" maxlength="9" value="800" id="high-price" placeholder="Max" name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding"&gt;         &lt;span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"&gt;&lt;span class="a-button-inner"&gt;&lt;input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"&gt;&lt;span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce"&gt;            Go         &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8c6deb67f01e46089a29c59d97b50896</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Clothing for Women online</Name>
+    <Description>Page</Description>
+    <StartTime>2022-07-08 01:58:20</StartTime>
+    <Duration>51</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Clothing for Women online]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c009b01ee46143e1a1eeaf5a2321861b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-07-08 01:58:13</StartTime>
+    <Duration>58</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>4fda1dc81791451d83483ad2687a863f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>PriceRange</Name>
+    <Description>Pass</Description>
+    <StartTime>2022-07-08 01:59:11</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>e1b68248c748473697a8afa4ed7daac8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Transaction">
+<Data>
+    <Name>TC_024</Name>
+    <Description>Transaction "TC_024" ended with "Pass" status (Total Duration: 74.1232 sec Wasted Time: 0.0920 sec).</Description>
+    <StartTime>2022-07-08 01:59:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>15938d6220104e57b4467f1ded6e6aa4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>End Transaction</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-07-08 01:55:33</StartTime>
+    <Duration>218</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e53116f36be8484780487f85406d2e20</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-07-08 01:55:33</StartTime>
+    <Duration>218</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>294629b9598b495f8d64a102f75bbaf6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Amazon</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-07-08 01:55:26</StartTime>
+    <Duration>225</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>f4b80d0703bb4b7eaca70e3d65c225d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>ALCHEMYCLOUD\user255</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>alchemycloud.co.in\UFT-54</HostName>
+      <OSInfo>Windows 10 1703 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res392</ResultName>
+    <RunStartTime>2022-07-08 01:55:26</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

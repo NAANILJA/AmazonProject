@@ -1,0 +1,246 @@
+﻿' Fashion----------------------------------------------------
+Function  Fashion()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim SearchString,Res
+SearchString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Res=Browser(browserObject).Page(pageObject).WebElement(ch_6Object).GetROProperty("text")
+If InStr(searchString,Res)>=0 Then
+	Reporter.ReportEvent miccPass,"Fashion","Pass"
+	Fashion="Pass"
+Else
+       Reporter.ReportEvent miccFail,"Fashion","Fail"
+       Fashion="Fail"
+End If
+End Function
+
+' Women ------------------------------------------------------
+Function  Women()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim SearchString,Res
+SearchString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Click
+Res=Browser(browserObject).Page(pageObject).WebElement(Ch_7Object).GetROProperty("text")
+If InStr(searchString,Res)>=0 Then
+	Reporter.ReportEvent miccPass,"Women","Pass"
+	Women="Pass"
+Else
+       Reporter.ReportEvent miccFail,"Women","Fail"
+       Women="Fail"
+End If
+End Function
+
+Function Western_Wear()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,res
+searchString =DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Click
+Browser(browserObject).Page(pageObject).WebElement(clothingObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(clothingObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(wwearObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(wwearObject).Click
+res1=Browser(browserObject).Page(pageObject).WebElement(ch_1Object).GetROProperty("text")
+If InStr(searchString,res)>=0 Then
+	Reporter.ReportEvent miccPass,"Western_Wear","Pass"
+	Western_Wear="Pass"
+Else
+       Reporter.ReportEvent miccFail,"Western_Wear","Fail"
+       Western_Wear="Fail"
+End If
+End Function
+
+' Men Menu -----------------------------------------------------------------
+Function Men()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,res
+searchString= DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link( fash1Object).Highlight
+Browser(browserObject).Page(pageObject).Link( fash1Object).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(menObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(menObject).Click
+Browser(browserObject).Page(pageObject).WebElement(clothingObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(clothingObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(shirtObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(shirtObject).Click
+Browser(browserObject).Page(pageObject).WebElement(cottenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(cottenObject).Click
+res=Browser(browserObject).Page(pageObject).WebElement( ch_2Object).GetRoProperty("text")
+If InStr(searchString,res)>=0 Then
+	Reporter.ReportEvent micPass,"Men","Pass"
+	Men="Pass"
+Else
+       Reporter.ReportEvent micFail,"Men","Fail"
+       Men="Fail"
+End If
+End Function
+
+' Bags & Luggage----------------------------------------------------
+Function Bag_Lugg()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link( fash1Object).Highlight
+Browser(browserObject).Page(pageObject).Link( fash1Object).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(bag_LulObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(bag_LulObject).Click
+Browser(browserObject).Page(pageObject).WebElement(AmericanTouristerObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(AmericanTouristerObject).Click
+res=Browser(browserObject).Page(pageObject).WebElement(ch_3Object).GetRoProperty("text")
+wait(5)
+If InStr(searchString,res)>=0 Then
+	Reporter.ReportEvent miccPass,"Bags & Luggage","Pass"
+	Bag_Lugg="Pass"
+Else
+       Reporter.ReportEvent miccFail,"Bags & Luggage","Fail"
+       Bag_Lugg="Fail"
+End If
+End Function
+
+' Sportswear----------------------------------------------------------------
+Function Sportswear()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(sportObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(sportObject).Click
+Browser(browserObject).Page(pageObject).WebElement(girlsObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(girlsObject).Click
+res=Browser(browserObject).Page(pageObject).WebElement(Gch_9Object).Click
+If Strcomp(searchString,res)=0 Then
+	Reporter.ReportEvent miccPass,"Sportswear","Pass"
+	Sportswear="Pass"
+Else
+       Reporter.ReportEvent miccFail,"Sportswear","Fail"
+       Sportswear="Fail"
+End If
+End Function
+
+Function BrandChecBox()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim serachString,Res
+serachString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Click
+Browser(browserObject).Page(pageObject).WebElement(Brand_Ch_OBbject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Brand_Ch_OBbject).Click
+Res=Browser(browserObject).Page(pageObject).WebElement(ch_4Object).GetRoProperty("text")
+wait(5)
+If InStr(searchString,res)>=0 Then
+	Reporter.ReportEvent micPass,"BrandChecBox","Pass"
+	BrandChecBox="Pass"
+Else
+       Reporter.ReportEvent micFail,"BrandCheckbox","Fail"
+       BrandChecBox="Fail"
+End If
+End Function
+
+Function TodayDeals()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim serachString,Res
+serachString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Click
+Browser(browserObject).Page(pageObject).WebElement(ToDayObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(ToDayObject).Click
+Res=Browser(browserObject).Page(pageObject).WebElement(ToDayObject).GetROProperty("text")
+If InStr(searchString,res)>=0 Then
+	Reporter.ReportEvent micPass,"TodayDeals","Pass"
+	TodayDeals="Pass"
+Else
+       Reporter.ReportEvent micFail,"TodayDeals","Fail"
+       TodayDeals="Fail"
+End If
+End Function
+
+Function PoNdelivery()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Click
+Browser(browserObject).Page(pageObject).WebElement(PODObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(PODObject).Click
+Res="Pay On delivery page is displayed"
+If StrComp(searchString,res)=0 Then
+	Reporter.ReportEvent micPass,"PoNdelivery","Pass"
+	PoNdelivery="Pass"
+Else
+       Reporter.ReportEvent micFail,"PoNdelivery","Fail"
+       PoNdelivery="Fail"
+End If
+End Function
+
+Function Dang_Drop()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Click	
+Browser(browserObject).Page(pageObject).WebElement(jwellObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(jwellObject).Click	
+Browser(browserObject).Page(pageObject).WebElement(EarriObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(EarriObject).Click
+Browser(browserObject).Page(pageObject).WebElement(Dang_DropObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(Dang_DropObject).Click
+Browser(browserObject).Page(pageObject).WebElement(ch_5Object).Highlight
+res=Browser(browserObject).Page(pageObject).WebElement(ch_5Object).GetRoProperty("text")
+wait(5)
+If InStr(searchString,Res)>=0 Then
+	Reporter.ReportEvent miccPass,"Dang_Drop","Pass"
+	Dang_Drop="Pass"
+Else
+     Reporter.ReportEvent miccFail,"Dang_Drop","Fail"
+    Dang_Drop="Fail"
+End If
+End Function
+
+Function Footwear()
+Browser(browserObject).Navigate(DataTable.Value("URL","Test Data"))
+Dim searchString,Res
+searchString=DataTable.Value("Expected_Result","Test Data")
+Browser( browserObject).Page(pageObject).Link(fashObject).Highlight
+Browser(browserObject).Page(pageObject).Link(fashObject).Click
+wait(5)
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Highlight
+Browser(browserObject).Page(pageObject).WebElement(womenObject).Click	
+Browser(browserObject).Page(pageObject).WebElement(FootWObject).Click
+Browser(browserObject).Page(pageObject).WebElement(kidsshoesObject).Click
+Browser(browserObject).Page(pageObject).WebElement(AmaPrimeObject).Click
+Res="Footwear Brands Displayed"
+If Strcomp (searchString,Res) =0 Then
+	Reporter.ReportEvent miccPass,"Footwear","Pass"
+	Footwear="Pass"	
+Else
+       Reporter.ReportEvent miccFail,"Footwear","Fail"
+      Footwear="Fail"
+End If
+End Function

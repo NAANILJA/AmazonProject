@@ -1,0 +1,147 @@
+﻿'Browser-----------------
+Set browserObject=Description.Create
+browserObject("creationtime").value="0"
+
+Set pageObject=Description.Create
+pageObject("micclass").value="Page"
+ 
+'Fashion------------------
+Set fashObject=Description.Create
+fashObject("xpath").value="//DIV[@id='nav-xshop']/A[2]"
+
+Set fash1Object=Description.Create
+fash1Object("innerhtml").value="Fashion"
+
+Set ch_6Object=Description.Create
+ch_6Object("xpath").value="//DIV[@id='a-page']/DIV[2]/DIV[2]"
+
+'Clothing--------------
+Set clothingObject=Description.Create
+clothingObject("innerhtml").value="Clothing"
+
+'Women---------------
+Set womenObject=Description.Create
+womenObject("xpath").value="//A/SPAN[normalize-space()='Women']"
+
+Set Ch_7Object=Description.Create
+Ch_7Object("xpath").value="//LI/SPAN[normalize-space()='Women']/SPAN[1]"
+'---------------women-----------------------------------
+Set wwearObject=Description.Create
+wwearObject("xpath").value="//LI/SPAN/A[normalize-space()='Western Wear']/SPAN[1]"
+
+Set ch_1Object=Description.Create
+ch_1Object("html id").value="sobe_d_b_1"
+
+Set Brand_Ch_OBbject=Description.Create
+Brand_Ch_OBbject("xpath").value="//LI/SPAN/A[normalize-space()='INOVERA (LABEL)']/DIV[1]/LABEL[1]/I[1]"
+
+Set ch_4Object=Description.Create
+ch_4Object("xpath").value="//LI/SPAN/A[normalize-space()='INOVERA (LABEL)']/DIV[1]/LABEL[1]/I[1]"
+
+Set ToDayObject=Description.Create
+ToDayObject("innertext").value="Deals Today's Deals "
+
+Set PODObject=Description.Create
+PODObject("innerhtml").value="Eligible for Pay On Delivery"
+
+Set jwellObject=Description.Create
+jwellObject("xpath").value="//LI/SPAN/A[normalize-space()='Jewellery']/SPAN[1]"
+
+Set EarriObject=Description.Create
+ EarriObject("xpath").value="//LI/SPAN/A[normalize-space()='Earrings']/SPAN[1]"
+ 
+Set Dang_DropObject=Description.Create
+Dang_DropObject("xpath").value="//LI/SPAN/A[normalize-space()='Dangle & Drop']/SPAN[1]"
+
+Set ch_5Object=Description.Create
+ch_5Object("xpath").value="//DIV[@id='filters']/UL/LI[normalize-space()='Dangle & Drop']"
+
+Set FootWObject=Description.Create
+ FootWObject("xpath").value="//LI/A/DIV/SPAN[normalize-space()='Footwear']"
+
+Set kidsshoesObject=Description.Create
+ kidsshoesObject("xpath").value="//LI/A/DIV/SPAN[normalize-space()='Kids footwear']"
+ 
+Set AmaPrimeObject=Description.Create
+AmaPrimeObject("xpath").value="//DIV[normalize-space()='Amazon Prime']/UL[1]/LI[1]/SPAN[1]/A[1]/I[@role='presentation'][1]"
+
+Set ch_10Object=Description.Create
+ch_10Object("xpath").value="//LI/SPAN/A[normalize-space()='Today's Deals']/SPAN[1]"
+
+'Men---------------------
+Set menObject=Description.Create
+menObject("xpath").value="//A/SPAN[normalize-space()='Men']"
+
+Set Ch_8Object=Description.Create
+Ch_8Object("xpath").value="//LI/SPAN[normalize-space()='Men']/SPAN[1]"
+
+'---------------------------------Men------------------------------------
+Set shirtObject=Description.Create
+shirtObject("xpath").value="//LI/SPAN/A[normalize-space()='Shirts']/SPAN[1]"
+
+Set cottenObject=Description.Create
+cottenObject("xpath").value="//LI/SPAN/A[normalize-space()='Cotton']/DIV[1]/LABEL[1]/I[1]"
+
+Set ch_2Object=Description.Create
+ch_2Object("Xpath").value="//DIV[@id='filters']/UL/LI[normalize-space()='Cotton']"
+
+'Bags & Luggage-----------------
+
+Set bag_LulObject=Description.Create
+bag_LulObject("xpath").value="//A/SPAN[normalize-space()='Bags & Luggage']"
+
+Set AmericanTouristerObject=Description.Create
+AmericanTouristerObject("xpath").value="//LI/SPAN/A[normalize-space()='American Tourister']/SPAN[1]"
+
+Set ch_3Object=Description.Create
+ch_3Object("xpath").value="//DIV/DIV/SPAN/DIV/DIV/SPAN[normalize-space()='RESULTS']"
+
+'Sportswear------------------------
+Set sportObject=Description.Create
+sportObject("xpath").value="//A/SPAN[normalize-space()='Sportswear']"
+
+Set girlsObject=Description.Create
+girlsObject("xpath").value="//LI/SPAN/A[normalize-space()='Girls']/SPAN[1]"
+
+Set sportObject=Description.Create
+sportObject("xpath").value="//A/SPAN[normalize-space()='Sportswear']"
+
+Set Gch_9Object=Description.Create
+Gch_9Object("xpath").value="//DIV/DIV/SPAN/DIV/DIV/SPAN[normalize-space()='RESULTS']"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'Sign In------------------
+'Mob="9421238720"
+'pass_W="62c3c3ac6ee1fd0e0ad29160011ad4fe48f5450116c9"
+'
+'Set SignInObject=Description.Create
+'SignInObject("xpath").value="//DIV[@id='nav-signin-tooltip']/A[1]/SPAN[1]"
+'
+'Set E_Mob_Object=Description.Create
+' E_Mob_Object("xpath").value="//INPUT[@id='ap_email']"
+' 
+'Set ContObject=Description.Create
+' ContObject("xpath").value="//INPUT[@id='continue']"
+' 
+' Set passObject=Description.Create
+' passObject("xpath").value="//INPUT[@id='ap_password']"
+' 
+'  Set SignButtObject=Description.Create
+' SignButtObject("xpath").value="//INPUT[@id='signInSubmit']"
+' 
+' Set ch_11Object=Description.Create
+'ch_11Object("xpath").value="//A[@id='nav-link-accountList']/DIV/SPAN[normalize-space()='Hello, Namrata']"
+
